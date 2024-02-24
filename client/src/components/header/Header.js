@@ -17,11 +17,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="absolute top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64">
-        
-
-         
-
+      <header className="top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 bg-black">
         <div className="flex flex-wrap items-center justify-between py-6">
           <div className="w-1/2 md:w-auto">
             <a href="index.html" className="text-white font-bold text-2xl">
@@ -111,8 +107,8 @@ const Header = () => {
             <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
           </div>
 
-          <div className="relative z-50 bg-white rounded-lg shadow-xl w-[500px] p-6">
-            <button className="absolute top-0 right-0 p-2" onClick={closeLoginModal}>
+          <div className="z-50 bg-white rounded-lg shadow-xl w-[500px] p-6">
+            <button className="top-0 right-0 p-2" onClick={closeLoginModal}>
               <svg
                 className="w-6 h-6 text-gray-700"
                 fill="none"
