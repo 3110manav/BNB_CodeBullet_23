@@ -1,0 +1,173 @@
+[
+    {
+        "questionText": "Which national park in Maharashtra is known for its population of Bengal tigers?",
+        "answerOptions": [
+            { "answerText": "Sanjay Gandhi National Park", "isCorrect": false },
+            { "answerText": "Tadoba National Park", "isCorrect": true },
+            { "answerText": "Pench National Park", "isCorrect": false },
+            { "answerText": "Nagarhole National Park", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "In which national park of Madhya Pradesh can one find the famous Barasingha, also known as the swamp deer?",
+        "answerOptions": [
+            { "answerText": "Bandipur National Park", "isCorrect": false },
+            { "answerText": "Kanha National Park", "isCorrect": true },
+            { "answerText": "Nanda Devi National Park", "isCorrect": false },
+            { "answerText": "Dudhwa National Park", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which national park in Karnataka is famous for its population of Indian elephants?",
+        "answerOptions": [
+            { "answerText": "Ranthambore National Park", "isCorrect": false },
+            { "answerText": "Hemis National Park", "isCorrect": false },
+            { "answerText": "Bandipur National Park", "isCorrect": true },
+            { "answerText": "Jim Corbett National Park", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Nanda Devi National Park is located in which state and is home to the snow leopard?",
+        "answerOptions": [
+            { "answerText": "Uttarakhand", "isCorrect": true },
+            { "answerText": "Madhya Pradesh", "isCorrect": false },
+            { "answerText": "Assam", "isCorrect": false },
+            { "answerText": "Kerala", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which of the following animals can be commonly found in the Jim Corbett National Park?",
+        "answerOptions": [
+            { "answerText": "Bengal Tiger", "isCorrect": true },
+            { "answerText": "Indian Rhinoceros", "isCorrect": false },
+            { "answerText": "Indian Elephant", "isCorrect": false },
+            { "answerText": "Snow Leopard", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which national park in Maharashtra is known for its population of Indian leopards?",
+        "answerOptions": [
+            { "answerText": "Tadoba National Park", "isCorrect": true },
+            { "answerText": "Sanjay Gandhi National Park", "isCorrect": false },
+            { "answerText": "Pench National Park", "isCorrect": false },
+            { "answerText": "Nagarhole National Park", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which national park in Madhya Pradesh is known as the 'Tiger State of India'?",
+        "answerOptions": [
+            { "answerText": "Ranthambore National Park", "isCorrect": false },
+            { "answerText": "Kanha National Park", "isCorrect": true },
+            { "answerText": "Bandhavgarh National Park", "isCorrect": false },
+            { "answerText": "Jim Corbett National Park", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which national park in Karnataka is known for its population of Indian rhinoceroses?",
+        "answerOptions": [
+            { "answerText": "Nagarhole National Park", "isCorrect": false },
+            { "answerText": "Bandipur National Park", "isCorrect": false },
+            { "answerText": "Kaziranga National Park", "isCorrect": false },
+            { "answerText": "Dudhwa National Park", "isCorrect": true }
+        ]
+    },
+    {
+        "questionText": "Which national park in Uttarakhand is famous for the Valley of Flowers, a UNESCO World Heritage Site?",
+        "answerOptions": [
+            { "answerText": "Jim Corbett National Park", "isCorrect": false },
+            { "answerText": "Ranthambore National Park", "isCorrect": false },
+            { "answerText": "Nanda Devi National Park", "isCorrect": true },
+            { "answerText": "Bandipur National Park", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which animal species is predominantly found in the Gir National Park in Gujarat?",
+        "answerOptions": [
+            { "answerText": "Bengal Tiger", "isCorrect": false },
+            { "answerText": "Indian Leopard", "isCorrect": false },
+            { "answerText": "Indian Rhinoceros", "isCorrect": false },
+            { "answerText": "Asiatic Lion", "isCorrect": true }
+        ]
+    },
+    {
+        "questionText": "Which national park in Madhya Pradesh is famous for its population of Indian wild dogs?",
+        "answerOptions": [
+            { "answerText": "Bandipur National Park", "isCorrect": false },
+            { "answerText": "Ranthambore National Park", "isCorrect": false },
+            { "answerText": "Kanha National Park", "isCorrect": false },
+            { "answerText": "Pench National Park", "isCorrect": true }
+        ]
+    },
+    {
+        "questionText": "Which bird sanctuary in Maharashtra is known for the migratory flamingos?",
+        "answerOptions": [
+            { "answerText": "Keoladeo Ghana National Park", "isCorrect": false },
+            { "answerText": "Bharatpur Bird Sanctuary", "isCorrect": false },
+            { "answerText": "Bhigwan Bird Sanctuary", "isCorrect": true },
+            { "answerText": "Sultanpur Bird Sanctuary", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which national park in Karnataka is a designated UNESCO World Heritage Site and is known for its ruins of Vijayanagara Empire?",
+        "answerOptions": [
+            { "answerText": "Ranthambore National Park", "isCorrect": false },
+            { "answerText": "Hampi National Park", "isCorrect": true },
+            { "answerText": "Jim Corbett National Park", "isCorrect": false },
+            { "answerText": "Bandipur National Park", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which national park in Maharashtra is known for its population of Indian bison, also known as gaur?",
+        "answerOptions": [
+            { "answerText": "Tadoba National Park", "isCorrect": false },
+            { "answerText": "Sanjay Gandhi National Park", "isCorrect": false },
+            { "answerText": "Nagarhole National Park", "isCorrect": false },
+            { "answerText": "Pench National Park", "isCorrect": true }
+        ]
+    },
+    {
+        "questionText": "Which national park in Madhya Pradesh is known for its population of Indian Sloth Bears?",
+        "answerOptions": [
+            { "answerText": "Bandipur National Park", "isCorrect": false },
+            { "answerText": "Ranthambore National Park", "isCorrect": false },
+            { "answerText": "Kanha National Park", "isCorrect": true },
+            { "answerText": "Pench National Park", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which national park in Uttarakhand is known for its population of the critically endangered Himalayan Musk Deer?",
+        "answerOptions": [
+            { "answerText": "Jim Corbett National Park", "isCorrect": false },
+            { "answerText": "Ranthambore National Park", "isCorrect": false },
+            { "answerText": "Valley of Flowers National Park", "isCorrect": true },
+            { "answerText": "Bandipur National Park", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which bird sanctuary in Karnataka is known for its population of painted storks and pelicans?",
+        "answerOptions": [
+            { "answerText": "Ranganathittu Bird Sanctuary", "isCorrect": true },
+            { "answerText": "Salim Ali Bird Sanctuary", "isCorrect": false },
+            { "answerText": "Thattekad Bird Sanctuary", "isCorrect": false },
+            { "answerText": "Pakshi Bird Sanctuary", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which national park in Maharashtra is known for its population of Indian giant squirrels?",
+        "answerOptions": [
+            { "answerText": "Tadoba National Park", "isCorrect": true },
+            { "answerText": "Sanjay Gandhi National Park", "isCorrect": false },
+            { "answerText": "Pench National Park", "isCorrect": false },
+            { "answerText": "Nagarhole National Park", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Which national park in Madhya Pradesh is famous for its population of Indian Pangolins?",
+        "answerOptions": [
+            { "answerText": "Bandipur National Park", "isCorrect": false },
+            { "answerText": "Ranthambore National Park", "isCorrect": false },
+            { "answerText": "Kanha National Park", "isCorrect": true },
+            { "answerText": "Pench National Park", "isCorrect": false }
+        ]
+    }
+]
