@@ -6,15 +6,15 @@ const Footer = () => {
     <footer className="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
       <div className="flex flex-col md:flex-row">
         <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-          <h3 className="font-bold text-2xl">DentalPro</h3>
-          <p className="text-gray-400">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+          <h3 className="font-bold text-2xl">WildlifeWise</h3>
+          <p className="text-gray-400">Advocates for Nature | Guardians of the Wild | Champions of Conservation</p>
 
           <form className="flex items-center mt-6">
             <div className="w-full">
               <label className="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2" for="grid-last-name">
-                Subscribe for our Newsletter
+                Subscribe for our updates on events
               </label>
-              <div className="relative">
+              <div className="">
                 <input
                   className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   type="email" placeholder="Enter Your Email Address" />
@@ -27,11 +27,11 @@ const Footer = () => {
         </div>
 
         <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
-          <h5 className="uppercase tracking-wider font-semibold text-gray-500">Treatments</h5>
+          <h5 className="uppercase tracking-wider font-semibold text-gray-500">Social Activities</h5>
           <ul className="mt-4">
-            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">General Dentistry</a></li>
-            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">Cosmetic Dentistry</a></li>
-            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">Oral Health</a></li>
+            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">Social awareness campaign</a></li>
+            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">Lecture on wildlife conservation</a></li>
+            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">Documentary watching on Healthy life of animals</a></li>
           </ul>
         </div>
 
@@ -48,7 +48,7 @@ const Footer = () => {
                   </svg>
                 </span>
                 <span className="ml-3">
-                  1985 Kerry Way, Whittier, CA, USA
+                  Mumbai,India
                 </span>
               </a>
             </li>
@@ -63,7 +63,7 @@ const Footer = () => {
                 </span>
                 <span className="ml-3">
                   Mon - Fri: 9:00 - 19:00<br />
-                  Closed on Weekends
+                  Opened all day-all night for helping animals
                 </span>
               </a>
             </li>
@@ -77,7 +77,7 @@ const Footer = () => {
                   </svg>
                 </span>
                 <span className="ml-3">
-                  +1 562-789-1935
+                  +91 986678999
                 </span>
               </a>
             </li>
@@ -91,7 +91,7 @@ const Footer = () => {
                   </svg>
                 </span>
                 <span className="ml-3">
-                  dentalpro@example.com
+                  wildlifewise@example.com
                 </span>
               </a>
             </li>
@@ -138,7 +138,7 @@ const Footer = () => {
             </li>
           </ul>
 
-          <p className="text-sm text-gray-400 mt-12">© 2018 ProDentists. <br className="hidden lg:block" />All Rights Reserved.
+          <p className="text-sm text-gray-400 mt-12">© 2024 WildlifeWise. <br className="hidden lg:block" />All Rights Reserved.
           </p>
         </div>
       </div>
