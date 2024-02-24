@@ -1,0 +1,427 @@
+[
+    {
+      "name": "Sanjay Gandhi National Park",
+      "abstract": "Sanjay Gandhi National Park, formerly known as Borivali National Park, is a sprawling protected area located in the northern part of Mumbai, Maharashtra, India. Covering an area of approximately 104 square kilometers, it is one of Asia's most visited national parks due to its proximity to the urban metropolis. The park is renowned for its rich biodiversity, diverse ecosystems, and historical significance.",
+      "habitat": "Sanjay Gandhi National Park encompasses a variety of habitats, including tropical moist deciduous forests, evergreen forests, semi-evergreen forests, and grasslands. It is home to a wide range of flora and fauna adapted to these diverse environments.",
+      "animals": [
+        {
+          "name": "Bengal Tiger",
+          "population": 12,
+          "status": "Endangered"
+        },
+        {
+          "name": "Leopard",
+          "population": 40,
+          "status": "Near Threatened"
+        },
+        {
+          "name": "Sambar Deer",
+          "population": 150,
+          "status": "Least Concern"
+        },
+        {
+          "name": "Indian Giant Squirrel",
+          "population": 80,
+          "status": "Near Threatened"
+        },
+        {
+          "name": "Indian Rock Python",
+          "population": 20,
+          "status": "Least Concern"
+        }
+      ],
+      "extinctAnimals": ["Indian Cheetah"],
+      "climate": {
+        "Temperature": "Ranges from 20°C to 35°C in summer and 10°C to 25°C in winter",
+        "Rainfall": "Approximately 2500 mm annually",
+        "Humidity": "Varies from 50% to 90% depending on the season"
+      },
+      "plants": [
+        "Teak",
+        "Bamboo",
+        "Mahua",
+        "Indian Laurel",
+        "Jamun",
+        "Tamarind",
+        "Karvi",
+        "Wild Jasmine"
+      ],
+      "threats": {
+        "Encroachment": "Illegal encroachments and settlements within the park's boundaries lead to habitat destruction and fragmentation.",
+        "Poaching": "Poaching of wildlife for bushmeat, illegal wildlife trade, and body parts poses a significant threat to the park's fauna.",
+        "Human-Wildlife Conflict": "Incidents of conflict between humans and animals, particularly leopards, due to habitat loss and encroachment.",
+        "Deforestation": "Illegal logging and clearing of forests for agriculture and development projects degrade the park's habitat."
+      },
+      "conservationActions": {
+        "Habitat Protection": "Enhancing surveillance and enforcement to prevent encroachment and habitat destruction within the park.",
+        "Community Engagement": "Engaging with local communities to raise awareness, provide alternative livelihoods, and mitigate human-wildlife conflicts.",
+        "Anti-Poaching Measures": "Deploying anti-poaching patrols, increasing penalties for wildlife crimes, and strengthening law enforcement to combat poaching.",
+        "Reforestation Programs": "Implementing reforestation and afforestation initiatives to restore degraded areas and enhance habitat connectivity."
+      }
+    },
+    {
+      "name": "Tadoba-Andhari Tiger Reserve",
+      "abstract": "Tadoba-Andhari Tiger Reserve is a prominent wildlife sanctuary located in the Chandrapur district of Maharashtra, India. Spanning over 625 square kilometers, it is one of the largest and oldest tiger reserves in the state. The reserve is renowned for its thriving tiger population, diverse flora and fauna, and pristine natural landscapes.",
+      "habitat": "Tadoba-Andhari Tiger Reserve encompasses a range of habitats, including tropical dry deciduous forests, bamboo forests, grasslands, and wetlands. These habitats support a rich diversity of wildlife and provide essential ecosystem services.",
+      "animals": [
+        {
+          "name": "Bengal Tiger",
+          "population": 88,
+          "status": "Endangered"
+        },
+        {
+          "name": "Indian Leopard",
+          "population": 59,
+          "status": "Vulnerable"
+        },
+        {
+          "name": "Sloth Bear",
+          "population": 32,
+          "status": "Vulnerable"
+        },
+        {
+          "name": "Indian Gaur (Bison)",
+          "population": 185,
+          "status": "Vulnerable"
+        },
+        {
+          "name": "Indian Wild Dog (Dhole)",
+          "population": 27,
+          "status": "Endangered"
+        }
+      ],
+      "extinctAnimals": [],
+      "climate": {
+        "Temperature": "Varies from 20°C to 40°C in summer and 10°C to 30°C in winter",
+        "Rainfall": "Approximately 1200 mm annually",
+        "Humidity": "Varies from 30% to 80% depending on the season"
+      },
+      "plants": [
+        "Tectona grandis (Teak)",
+        "Bambusa arundinacea (Bamboo)",
+        "Madhuca longifolia (Mahua)",
+        "Terminalia bellirica (Bahera)",
+        "Syzygium cumini (Jamun)",
+        "Tamarindus indica (Tamarind)",
+        "Eupatorium odoratum (Karvi)",
+        "Jasminum arborescens (Wild Jasmine)"
+      ],
+      "threats": {
+        "Habitat Loss": "Encroachment, deforestation, and infrastructure development pose significant threats to the reserve's habitat and wildlife.",
+        "Poaching": "Illegal hunting and poaching of tigers, leopards, and other wildlife species for their skins, bones, and body parts remain a major concern.",
+        "Human-Wildlife Conflict": "Incidents of conflict between humans and wildlife, particularly crop raiding by herbivores and livestock depredation by predators.",
+        "Forest Fires": "Uncontrolled forest fires during the dry season pose a threat to the reserve's vegetation and wildlife."
+      },
+      "conservationActions": {
+        "Tiger Conservation": "Implementing tiger conservation programs, monitoring tiger populations, and establishing tiger corridors for connectivity.",
+        "Community Participation": "Engaging local communities in conservation initiatives, providing alternative livelihoods, and promoting sustainable tourism.",
+        "Anti-Poaching Measures": "Strengthening anti-poaching patrols, increasing penalties for wildlife crimes, and enhancing law enforcement efforts.",
+        "Habitat Restoration": "Undertaking habitat restoration projects, reforestation, and invasive species management to improve habitat quality and connectivity."
+      }
+    },
+    {
+        "name": "Chandoli National Park",
+        "abstract": "Chandoli National Park is a pristine wilderness area located in the Sahyadri Range of Maharashtra, India. Covering an area of approximately 317 square kilometers, it is known for its lush forests, cascading waterfalls, and diverse wildlife. The park is a haven for nature enthusiasts and adventure seekers, offering opportunities for trekking, birdwatching, and wildlife photography.",
+        "habitat": "Chandoli National Park comprises a range of habitats, including tropical moist deciduous forests, semi-evergreen forests, and grasslands. Its rugged terrain and rich biodiversity support a variety of flora and fauna adapted to the Western Ghats ecosystem.",
+        "animals": [
+          {
+            "name": "Indian Bison (Gaur)",
+            "population": 65,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Sloth Bear",
+            "population": 28,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Indian Giant Squirrel",
+            "population": 45,
+            "status": "Near Threatened"
+          },
+          {
+            "name": "Leopard",
+            "population": 20,
+            "status": "Near Threatened"
+          },
+          {
+            "name": "Indian Pangolin",
+            "population": 15,
+            "status": "Endangered"
+          }
+        ],
+        "extinctAnimals": [],
+        "climate": {
+          "Temperature": "Varies from 15°C to 30°C in summer and 10°C to 25°C in winter",
+          "Rainfall": "Approximately 3000 mm annually",
+          "Humidity": "Ranges from 60% to 90% depending on the season"
+        },
+        "plants": [
+          "Teak",
+          "Sandalwood",
+          "Anogeissus latifolia (Dhauda)",
+          "Terminalia tomentosa (Asana)",
+          "Terminalia paniculata (Hirda)",
+          "Tectona grandis (Teak)",
+          "Dalbergia latifolia (Blackwood)"
+        ],
+        "threats": {
+          "Habitat Degradation": "Illegal logging, encroachment, and habitat fragmentation due to human activities threaten the park's biodiversity and ecosystem integrity.",
+          "Poaching": "Illegal hunting and poaching of wildlife, particularly for bushmeat and body parts, pose a significant threat to endangered species like the Indian Pangolin.",
+          "Forest Fires": "Uncontrolled wildfires during the dry season can cause extensive damage to the park's forests and wildlife habitat.",
+          "Invasive Species": "Introduction of invasive plant species disrupts native ecosystems and threatens the survival of indigenous flora and fauna."
+        },
+        "conservationActions": {
+          "Habitat Protection": "Implementing strict measures to prevent illegal logging, encroachments, and habitat destruction within the park boundaries.",
+          "Community Engagement": "Engaging local communities in conservation awareness programs, sustainable livelihood initiatives, and eco-tourism development.",
+          "Wildlife Monitoring": "Conducting regular surveys and monitoring programs to assess wildlife populations, habitat health, and conservation effectiveness.",
+          "Fire Management": "Developing and implementing strategies for fire prevention, detection, and suppression to minimize the risk of forest fires."
+        }
+      },
+      {
+        "name": "Navegaon National Park",
+        "abstract": "Navegaon National Park is a picturesque wildlife sanctuary situated in the Gondia district of Maharashtra, India. Spanning over 133.88 square kilometers, it is renowned for its tranquil lakes, dense forests, and diverse wildlife. The park offers a serene retreat amidst nature, attracting visitors with its scenic beauty and rich biodiversity.",
+        "habitat": "Navegaon National Park encompasses a mosaic of habitats, including tropical dry deciduous forests, grasslands, and wetlands. Its varied topography and ecosystems support a wide range of flora and fauna, making it a biodiversity hotspot in central India.",
+        "animals": [
+          {
+            "name": "Indian Bison (Gaur)",
+            "population": 42,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Indian Leopard",
+            "population": 18,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Sloth Bear",
+            "population": 25,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Indian Giant Squirrel",
+            "population": 35,
+            "status": "Near Threatened"
+          },
+          {
+            "name": "Indian Pangolin",
+            "population": 12,
+            "status": "Endangered"
+          }
+        ],
+        "extinctAnimals": [],
+        "climate": {
+          "Temperature": "Varies from 20°C to 40°C in summer and 10°C to 25°C in winter",
+          "Rainfall": "Approximately 1500 mm annually",
+          "Humidity": "Ranges from 40% to 80% depending on the season"
+        },
+        "plants": [
+          "Teak",
+          "Sal",
+          "Terminalia",
+          "Boswellia",
+          "Bamboo",
+          "Mahua",
+          "Jamun",
+          "Tamarind"
+        ],
+        "threats": {
+          "Habitat Fragmentation": "Expansion of agricultural land, infrastructure development, and human settlements fragment and degrade the park's habitat.",
+          "Poaching": "Illegal hunting and poaching of wildlife for bushmeat, body parts, and traditional medicine pose a significant threat to endangered species.",
+          "Human-Wildlife Conflict": "Incidents of conflict between humans and animals, particularly crop raiding by herbivores and predation on livestock by carnivores.",
+          "Illegal Logging": "Unregulated logging activities for timber extraction and fuelwood collection contribute to deforestation and habitat loss."
+        },
+        "conservationActions": {
+          "Habitat Restoration": "Undertaking habitat restoration projects, afforestation, and reforestation efforts to restore degraded areas and improve habitat connectivity.",
+          "Community Engagement": "Involving local communities in conservation initiatives, providing alternative livelihoods, and promoting eco-tourism as a sustainable source of income.",
+          "Anti-Poaching Measures": "Strengthening anti-poaching patrols, increasing surveillance, and imposing strict penalties for wildlife crimes to deter poaching activities.",
+          "Awareness Campaigns": "Conducting education and awareness programs to promote wildlife conservation, sustainable living practices, and responsible tourism."
+        }
+      },
+      {
+        "name": "Gugamal National Park",
+        "abstract": "Gugamal National Park is a biodiverse sanctuary nestled in the rugged terrain of the Satpura Range in Maharashtra, India. Covering an area of approximately 1673.93 square kilometers, it is characterized by its dense forests, deep valleys, and pristine rivers. The park is a haven for wildlife enthusiasts and nature lovers, offering opportunities for wildlife safaris, trekking, and birdwatching.",
+        "habitat": "Gugamal National Park encompasses a variety of habitats, including tropical dry deciduous forests, mixed deciduous forests, and grasslands. Its diverse landscapes and altitudinal variations support a rich array of flora and fauna, making it one of the premier wildlife destinations in central India.",
+        "animals": [
+          {
+            "name": "Bengal Tiger",
+            "population": 25,
+            "status": "Endangered"
+          },
+          {
+            "name": "Indian Leopard",
+            "population": 30,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Indian Bison (Gaur)",
+            "population": 50,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Sloth Bear",
+            "population": 15,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Indian Giant Squirrel",
+            "population": 40,
+            "status": "Near Threatened"
+          }
+        ],
+        "extinctAnimals": [],
+        "climate": {
+          "Temperature": "Varies from 20°C to 35°C in summer and 10°C to 25°C in winter",
+          "Rainfall": "Approximately 1500 mm annually",
+          "Humidity": "Ranges from 40% to 80% depending on the season"
+        },
+        "plants": [
+          "Teak",
+          "Sal",
+          "Bamboo",
+          "Mahua",
+          "Jamun",
+          "Tamarind",
+          "Terminalia",
+          "Boswellia"
+        ],
+        "threats": {
+          "Habitat Loss": "Encroachment, deforestation, and mining activities pose significant threats to the park's habitat and wildlife.",
+          "Poaching": "Illegal hunting and poaching of tigers, leopards, and other wildlife species for their skins, bones, and body parts remain a major concern.",
+          "Human-Wildlife Conflict": "Incidents of conflict between humans and animals, particularly crop raiding by herbivores and livestock depredation by predators.",
+          "Forest Fires": "Uncontrolled forest fires during the dry season pose a threat to the park's vegetation and wildlife habitat."
+        },
+        "conservationActions": {
+          "Tiger Conservation": "Implementing tiger conservation programs, monitoring tiger populations, and establishing tiger corridors for connectivity.",
+          "Community Participation": "Engaging local communities in conservation initiatives, providing alternative livelihoods, and promoting sustainable tourism.",
+          "Anti-Poaching Measures": "Strengthening anti-poaching patrols, increasing penalties for wildlife crimes, and enhancing law enforcement efforts.",
+          "Habitat Restoration": "Undertaking habitat restoration projects, reforestation, and invasive species management to improve habitat quality and connectivity."
+        }
+      },
+      {
+        "name": "Nagzira Wildlife Sanctuary",
+        "abstract": "Nagzira Wildlife Sanctuary is a scenic reserve nestled in the northeastern part of Maharashtra, India. Spread across an area of approximately 152.81 square kilometers, it is renowned for its tranquil surroundings, lush greenery, and diverse wildlife. The sanctuary offers a serene escape into nature, attracting nature lovers, photographers, and wildlife enthusiasts alike.",
+        "habitat": "Nagzira Wildlife Sanctuary encompasses a mix of habitats, including tropical moist deciduous forests, bamboo forests, and grasslands. Its varied terrain and rich biodiversity support a wide range of flora and fauna adapted to the Central Indian landscape.",
+        "animals": [
+          {
+            "name": "Indian Bison (Gaur)",
+            "population": 35,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Indian Leopard",
+            "population": 22,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Sloth Bear",
+            "population": 18,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Indian Giant Squirrel",
+            "population": 30,
+            "status": "Near Threatened"
+          },
+          {
+            "name": "Striped Hyena",
+            "population": 10,
+            "status": "Near Threatened"
+          }
+        ],
+        "extinctAnimals": [],
+        "climate": {
+          "Temperature": "Varies from 20°C to 35°C in summer and 10°C to 25°C in winter",
+          "Rainfall": "Approximately 1200 mm annually",
+          "Humidity": "Ranges from 50% to 80% depending on the season"
+        },
+        "plants": [
+          "Teak",
+          "Sal",
+          "Bamboo",
+          "Mahua",
+          "Jamun",
+          "Tamarind",
+          "Terminalia",
+          "Boswellia"
+        ],
+        "threats": {
+          "Habitat Fragmentation": "Expansion of agriculture, human settlements, and infrastructure development fragments and degrades the sanctuary's habitat.",
+          "Poaching": "Illegal hunting and poaching of wildlife for bushmeat, body parts, and traditional medicine pose a significant threat to endangered species.",
+          "Human-Wildlife Conflict": "Incidents of conflict between humans and animals, particularly crop raiding by herbivores and predation on livestock by carnivores.",
+          "Illegal Logging": "Unregulated logging activities for timber extraction and fuelwood collection contribute to deforestation and habitat loss."
+        },
+        "conservationActions": {
+          "Habitat Restoration": "Undertaking habitat restoration projects, afforestation, and reforestation efforts to restore degraded areas and improve habitat connectivity.",
+          "Community Engagement": "Involving local communities in conservation initiatives, providing alternative livelihoods, and promoting eco-tourism as a sustainable source of income.",
+          "Anti-Poaching Measures": "Strengthening anti-poaching patrols, increasing surveillance, and imposing strict penalties for wildlife crimes to deter poaching activities.",
+          "Awareness Campaigns": "Conducting education and awareness programs to promote wildlife conservation, sustainable living practices, and responsible tourism."
+        }
+      },
+      {
+        "name": "Koyna Wildlife Sanctuary",
+        "abstract": "Koyna Wildlife Sanctuary is a pristine wilderness area located in the Western Ghats of Maharashtra, India. Encompassing an area of approximately 423.55 square kilometers, it is one of the largest and most biodiverse sanctuaries in the state. The sanctuary is renowned for its rugged terrain, dense forests, and rich wildlife, making it a haven for nature lovers, researchers, and adventure seekers alike.",
+        "habitat": "Koyna Wildlife Sanctuary features a diverse range of habitats, including tropical moist deciduous forests, semi-evergreen forests, and grasslands. Its rugged terrain and varied elevations support a wide array of flora and fauna adapted to the Western Ghats ecosystem.",
+        "animals": [
+          {
+            "name": "Indian Bison (Gaur)",
+            "population": 60,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Indian Leopard",
+            "population": 30,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Sloth Bear",
+            "population": 20,
+            "status": "Vulnerable"
+          },
+          {
+            "name": "Indian Giant Squirrel",
+            "population": 40,
+            "status": "Near Threatened"
+          },
+          {
+            "name": "Malabar Grey Hornbill",
+            "population": 25,
+            "status": "Near Threatened"
+          }
+        ],
+        "extinctAnimals": [],
+        "climate": {
+          "Temperature": "Varies from 15°C to 30°C in summer and 5°C to 20°C in winter",
+          "Rainfall": "Approximately 3500 mm annually",
+          "Humidity": "Ranges from 70% to 90% depending on the season"
+        },
+        "plants": [
+          "Teak",
+          "Shisham",
+          "Bamboo",
+          "Rosewood",
+          "Indian Laurel",
+          "Jamun",
+          "Ficus",
+          "Mahua"
+        ],
+        "threats": {
+          "Habitat Destruction": "Encroachment for agriculture, illegal logging, and infrastructure development threaten the sanctuary's forests and wildlife habitat.",
+          "Human-Wildlife Conflict": "Incidents of conflict between humans and animals, particularly crop raiding by herbivores and predation on livestock by carnivores.",
+          "Illegal Poaching": "Illegal hunting and poaching of wildlife for bushmeat, trophies, and body parts pose a significant threat to endangered species.",
+          "Hydroelectric Projects": "Large-scale hydroelectric projects and dam constructions in the region disrupt natural ecosystems and alter water flow, impacting wildlife."
+        },
+        "conservationActions": {
+          "Habitat Protection": "Implementing measures to protect critical habitats, wildlife corridors, and buffer zones within the sanctuary.",
+          "Community Engagement": "Engaging local communities in conservation awareness programs, sustainable livelihood initiatives, and ecotourism ventures.",
+          "Anti-Poaching Efforts": "Strengthening anti-poaching patrols, wildlife law enforcement, and surveillance to combat illegal hunting and trade.",
+          "Research and Monitoring": "Conducting scientific research, wildlife surveys, and monitoring programs to assess biodiversity, population dynamics, and habitat health."
+        }
+      }
+      
+      
+      
+      
+      
+  ]
+  
