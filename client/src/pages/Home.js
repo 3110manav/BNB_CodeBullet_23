@@ -128,16 +128,16 @@ const Home = () => {
       {/* <!-- end about --> */}
 
       {/* <!-- start testimonials --> */}
-      <section className="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32">
+      <section className="relative bg-gray-100 px-2 sm:px-6 lg:px-14 xl:px-38 2xl:px-64 py-16 lg:py-32">
         <div className="flex flex-col lg:flex-row lg:-mx-8">
           <div className="w-full lg:w-1/2 lg:px-8">
             <h2 className="text-3xl leading-tight font-bold mt-4">Why Support Wildlife Conservation?</h2>
             <p className="mt-2 leading-relaxed">Wildlife conservation is crucial for maintaining ecological balance, preserving biodiversity, and ensuring the survival of future generations. By supporting conservation efforts, you contribute to the protection of endangered species and the conservation of their habitats.</p>
           </div>
 
-          <div className="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
-            <div className="bg-gray-400 w-full h-72 rounded-lg">
-              <img style={{ objectFit: "cover" }} src='https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='' />
+          <div className="w-full md:mx-auto lg:w-1/2 lg:px-8 mt:md-0">
+            <div className="bg-gray-400 w-full h-82 rounded-lg">
+              <img className='w-full h-full rounded-md' src='https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='' />
             </div>
 
             <p className="italic text-sm mt-2 text-center">"The wildlife and its habitat cannot speak, so we must and we will." - Theodore Roosevelt</p>
