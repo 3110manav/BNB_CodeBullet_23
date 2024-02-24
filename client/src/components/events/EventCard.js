@@ -1,11 +1,11 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { Paper } from '@mui/material';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import * as React from "react";
+import Box from "@mui/material/Box";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import { Paper } from "@mui/material";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 
 function EventCard() {
 
@@ -37,4 +37,4 @@ function EventCard() {
     );
 }
 
-export default EventCard
+export default EventCard;

@@ -1,0 +1,602 @@
+[
+    {
+        "name":"lion",
+        "abstract":" The lion (Panthera leo) is a large carnivorous mammal belonging to the Felidae family. It is commonly referred to as the king of the jungle and is known for its majestic appearance and fierce hunting prowess.",
+        "totalPopulation":500,
+        "populationArray":"",
+        "populationTrend":"Stable",
+        "habitat":"Savanna grasslands, open woodlands, and scrub habitats",
+        "Taxonomy":{
+            "Kingdom": "Animalia",
+            "Phylum": "Chordata",
+            "Class": "Mammalia",
+            "Order": "Carnivora",
+            "Family": "Felidae",
+            "Genus": "Panthera",
+            "Species": "Panthera leo"
+        },
+        "threats":{
+            "Habitat Loss": "Due to human encroachment, agriculture, and urbanization, lion habitats are shrinking, leading to fragmentation and degradation of their natural habitat.",
+            "Human-Wildlife Conflict": "Lions occasionally prey on livestock, leading to retaliatory killings by farmers, which can result in population declines.",
+            "Poaching": "Despite legal protection, lions are still targeted by poachers for their skins, bones, and body parts, posing a significant threat to their populations."
+        },
+        "conservationAction":{
+            "Protected Areas": "Establishing and maintaining protected areas such as national parks and wildlife reserves to safeguard lion habitats and populations.",
+            "Community Engagement": "Working with local communities to promote coexistence and mitigate human-wildlife conflicts through measures such as predator-proof enclosures and compensation schemes for livestock losses.",
+            "Anti-Poaching Efforts": "Strengthening law enforcement and anti-poaching patrols to combat illegal hunting and trade of lions and their parts.",
+           "Habitat Restoration": "Implementing habitat restoration projects to rehabilitate degraded lion habitats and create corridors for connectivity between fragmented populations."
+        }
+    },
+    {
+        "name": "elephant",
+        "abstract": "The elephant is the largest land mammal, characterized by its long trunk, large ears, and tusks. It plays a crucial role in maintaining ecosystem balance and is considered a keystone species.",
+        "totalPopulation": 415000,
+        "populationArray": "",
+        "populationTrend": "Decreasing",
+        "habitat": "Forests, grasslands, and savannas",
+        "taxonomy": {
+            "Kingdom": "Animalia",
+            "Phylum": "Chordata",
+            "Class": "Mammalia",
+            "Order": "Proboscidea",
+            "Family": "Elephantidae",
+            "Genus": "Loxodonta (African elephant) or Elephas (Asian elephant)",
+            "Species": "Loxodonta africana (African elephant) or Elephas maximus (Asian elephant)"
+        },
+        "threats": {
+            "Habitat Loss": "Deforestation and habitat fragmentation due to human activities such as logging, agriculture, and urbanization.",
+            "Poaching": "Illegal hunting for ivory and meat poses a significant threat to elephant populations, particularly in Africa.",
+            "Human-Elephant Conflict": "As human populations expand, conflicts between elephants and humans over resources such as land and water are increasing."
+        },
+        "conservationAction": {
+            "Protected Areas": "Establishing and expanding protected areas and wildlife reserves to conserve elephant habitats and populations.",
+            "Anti-Poaching Efforts": "Deploying anti-poaching patrols, using technology such as drones and GPS tracking, and implementing stricter penalties for poaching offenses.",
+            "Habitat Connectivity": "Creating wildlife corridors and promoting landscape-level conservation initiatives to maintain habitat connectivity and allow for natural elephant movement.",
+            "Community Engagement": "Working with local communities to develop sustainable land-use practices, provide alternative livelihoods, and implement measures to mitigate human-elephant conflicts."
+        }
+    },
+    {
+        "name": "Bengal Tiger",
+        "abstract": "The Bengal tiger (Panthera tigris tigris) is a majestic big cat native to the Indian subcontinent. It is known for its distinctive orange coat with black stripes and is the national animal of India. Bengal tigers are apex predators and play a crucial role in maintaining the ecological balance of their habitats.",
+        "totalPopulation": 2500,
+        "populationArray": "",
+        "populationTrend": "Decreasing",
+        "habitat": "Tropical and subtropical moist broadleaf forests, grasslands, and mangrove habitats",
+        "taxonomy": {
+            "Kingdom": "Animalia",
+            "Phylum": "Chordata",
+            "Class": "Mammalia",
+            "Order": "Carnivora",
+            "Family": "Felidae",
+            "Genus": "Panthera",
+            "Species": "Panthera tigris",
+            "Subspecies": "Panthera tigris tigris"
+        },
+        "threats": {
+            "Habitat Loss": "Deforestation, fragmentation, and degradation of tiger habitats due to human activities such as logging, agriculture, and infrastructure development.",
+            "Poaching": "Illegal hunting for tiger skins, bones, and body parts driven by demand for traditional medicine and luxury goods in some Asian countries.",
+            "Human-Tiger Conflict": "As human populations expand and encroach upon tiger habitats, conflicts between tigers and humans over resources such as prey and territory are increasing."
+        },
+        "conservationAction": {
+            "Protected Areas": "Establishing and expanding protected areas, tiger reserves, and wildlife corridors to conserve tiger habitats and populations.",
+            "Anti-Poaching Efforts": "Deploying anti-poaching patrols, employing trained wildlife rangers, and using technology such as camera traps and drones to monitor and protect tigers from illegal hunting and trade.",
+            "Habitat Restoration": "Implementing habitat restoration and reforestation projects to rehabilitate degraded tiger habitats and create connectivity between fragmented populations.",
+            "Community Engagement": "Working with local communities to raise awareness, provide alternative livelihoods, and implement measures to reduce human-tiger conflicts and promote coexistence."
+        }
+    },
+    {
+        "name": "Indian Leopard",
+        "abstract": "The Indian leopard (Panthera pardus fusca) is a subspecies of leopard native to the Indian subcontinent. It is characterized by its spotted coat and is known for its adaptability to various habitats, including forests, grasslands, and human-dominated landscapes.",
+        "totalPopulation": 12000,
+        "populationArray": "",
+        "populationTrend": "Stable",
+        "habitat": "Forests, grasslands, scrublands, and human settlements",
+        "taxonomy": {
+            "Kingdom": "Animalia",
+            "Phylum": "Chordata",
+            "Class": "Mammalia",
+            "Order": "Carnivora",
+            "Family": "Felidae",
+            "Genus": "Panthera",
+            "Species": "Panthera pardus",
+            "Subspecies": "Panthera pardus fusca"
+        },
+        "threats": {
+            "Habitat Loss": "Deforestation, fragmentation, and degradation of leopard habitats due to human activities such as logging, agriculture, and urbanization.",
+            "Poaching": "Illegal hunting for leopard skins, bones, and body parts, driven by demand for traditional medicine, ceremonial attire, and luxury goods.",
+            "Human-Leopard Conflict": "As human populations expand into leopard territories, conflicts between leopards and humans over resources such as livestock and territory are increasing."
+        },
+        "conservationAction": {
+            "Protected Areas": "Establishing and expanding protected areas, wildlife sanctuaries, and conservation reserves to safeguard leopard habitats and populations.",
+            "Community Engagement": "Implementing community-based conservation initiatives, providing compensation for livestock losses, and promoting predator-proof livestock enclosures to mitigate human-leopard conflicts.",
+            "Anti-Poaching Efforts": "Deploying anti-poaching patrols, employing trained wildlife guards, and using technology such as camera traps and GPS tracking to monitor and protect leopards from illegal hunting and trade."
+        }
+    },
+    {
+        "name": "Indian Gaur (Indian Bison)",
+        "abstract": "The Indian gaur (Bos gaurus), also known as the Indian bison, is a large bovine species native to the Indian subcontinent. It is characterized by its robust build, dark brown coat, and distinctive white stockings on its lower legs.",
+        "totalPopulation": 21000,
+        "populationArray": "",
+        "populationTrend": "Decreasing",
+        "habitat": "Tropical and subtropical moist broadleaf forests, grasslands, and hilly terrains",
+        "taxonomy": {
+            "Kingdom": "Animalia",
+            "Phylum": "Chordata",
+            "Class": "Mammalia",
+            "Order": "Artiodactyla",
+            "Family": "Bovidae",
+            "Genus": "Bos",
+            "Species": "Bos gaurus"
+        },
+        "threats": {
+            "Habitat Loss": "Deforestation, conversion of forests into agricultural land, and fragmentation of gaur habitats due to human activities such as logging, mining, and infrastructure development.",
+            "Poaching": "Illegal hunting for gaur meat, trophies, and body parts, driven by demand for bushmeat and traditional medicine.",
+            "Human-Wildlife Conflict": "As human populations expand and encroach upon gaur territories, conflicts between gaurs and humans over resources such as crops and territory are increasing."
+        },
+        "conservationAction": {
+            "Protected Areas": "Establishing and expanding protected areas, national parks, and wildlife sanctuaries to conserve gaur habitats and populations.",
+            "Community Engagement": "Implementing community-based conservation programs, providing alternative livelihoods, and promoting sustainable land-use practices to reduce human-gaur conflicts and promote coexistence.",
+            "Anti-Poaching Efforts": "Enhancing law enforcement efforts, deploying anti-poaching patrols, and implementing stricter penalties for poaching offenses to protect gaurs from illegal hunting and trade."
+        }
+    },{
+    "name": "Sloth Bear",
+    "abstract": "The sloth bear (Melursus ursinus) is a species of bear native to the Indian subcontinent. It is known for its shaggy black coat, distinctive white V-shaped mark on its chest, and its unique diet, which includes insects, fruits, and honey.",
+    "totalPopulation": 8000,
+    "populationArray": "",
+    "populationTrend": "Decreasing",
+    "habitat": "Dry and moist deciduous forests, grasslands, and scrublands",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Carnivora",
+        "Family": "Ursidae",
+        "Genus": "Melursus",
+        "Species": "Melursus ursinus"
+    },
+    "threats": {
+        "Habitat Loss": "Deforestation, habitat fragmentation, and degradation of sloth bear habitats due to human activities such as logging, agriculture, and infrastructure development.",
+        "Poaching": "Illegal hunting for bear bile, claws, and body parts, driven by demand for traditional medicine, cultural beliefs, and wildlife products.",
+        "Human-Bear Conflict": "As human populations expand into bear territories, conflicts between sloth bears and humans over resources such as crops, livestock, and habitat are increasing."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing and expanding protected areas, wildlife reserves, and conservation corridors to safeguard sloth bear habitats and populations.",
+        "Community Engagement": "Implementing bear-wise practices, promoting coexistence, and providing compensation for crop and livestock losses to reduce human-bear conflicts and mitigate retaliatory killings.",
+        "Anti-Poaching Efforts": "Strengthening anti-poaching measures, conducting wildlife law enforcement operations, and enhancing intelligence gathering to combat illegal hunting and trade of sloth bears."
+    }
+},
+{
+    "name": "Sloth Bear",
+    "abstract": "The sloth bear (Melursus ursinus) is a species of bear native to the Indian subcontinent. It is known for its shaggy black coat, distinctive white V-shaped mark on its chest, and its unique diet, which includes insects, fruits, and honey.",
+    "totalPopulation": 8000,
+    "populationArray": "",
+    "populationTrend": "Decreasing",
+    "habitat": "Dry and moist deciduous forests, grasslands, and scrublands",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Carnivora",
+        "Family": "Ursidae",
+        "Genus": "Melursus",
+        "Species": "Melursus ursinus"
+    },
+    "threats": {
+        "Habitat Loss": "Deforestation, habitat fragmentation, and degradation of sloth bear habitats due to human activities such as logging, agriculture, and infrastructure development.",
+        "Poaching": "Illegal hunting for bear bile, claws, and body parts, driven by demand for traditional medicine, cultural beliefs, and wildlife products.",
+        "Human-Bear Conflict": "As human populations expand into bear territories, conflicts between sloth bears and humans over resources such as crops, livestock, and habitat are increasing."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing and expanding protected areas, wildlife reserves, and conservation corridors to safeguard sloth bear habitats and populations.",
+        "Community Engagement": "Implementing bear-wise practices, promoting coexistence, and providing compensation for crop and livestock losses to reduce human-bear conflicts and mitigate retaliatory killings.",
+        "Anti-Poaching Efforts": "Strengthening anti-poaching measures, conducting wildlife law enforcement operations, and enhancing intelligence gathering to combat illegal hunting and trade of sloth bears."
+    }
+},
+{
+    "name": "Indian Wolf",
+    "abstract": "The Indian wolf (Canis lupus pallipes) is a subspecies of gray wolf native to the Indian subcontinent. It is characterized by its sandy or reddish-brown coat, long legs, and slender build.",
+    "totalPopulation": 2000,
+    "populationArray": "",
+    "populationTrend": "Decreasing",
+    "habitat": "Open grasslands, scrublands, and agricultural areas",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Carnivora",
+        "Family": "Canidae",
+        "Genus": "Canis",
+        "Species": "Canis lupus",
+        "Subspecies": "Canis lupus pallipes"
+    },
+    "threats": {
+        "Habitat Loss": "Habitat destruction and fragmentation due to agricultural expansion, urbanization, and industrial development.",
+        "Poaching": "Illegal hunting and trapping of wolves for their pelts, persecution by livestock owners, and retaliatory killings due to conflicts.",
+        "Human-Wolf Conflict": "As human populations expand and encroach upon wolf territories, conflicts between wolves and humans over resources such as livestock and territory are increasing."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing and expanding protected areas, wildlife reserves, and conservation corridors to conserve wolf habitats and populations.",
+        "Community Engagement": "Implementing livestock protection measures, promoting coexistence, and providing compensation for livestock losses to reduce human-wolf conflicts and promote tolerance.",
+        "Anti-Poaching Efforts": "Strengthening enforcement of wildlife protection laws, conducting anti-poaching patrols, and raising awareness about the importance of wolf conservation to deter illegal hunting and persecution."
+    }
+},
+{
+    "name": "Indian Jackal",
+    "abstract": "The Indian jackal (Canis aureus indicus) is a subspecies of golden jackal native to the Indian subcontinent. It is characterized by its sandy or golden-brown fur, bushy tail, and adaptability to various habitats.",
+    "totalPopulation": 50000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Grasslands, scrublands, agricultural areas, and urban environments",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Carnivora",
+        "Family": "Canidae",
+        "Genus": "Canis",
+        "Species": "Canis aureus",
+        "Subspecies": "Canis aureus indicus"
+    },
+    "threats": {
+        "Habitat Loss": "Habitat destruction and fragmentation due to agricultural expansion, urbanization, and human settlements.",
+        "Human-Jackal Conflict": "Occasional predation on poultry and small livestock leads to conflicts with farmers, resulting in retaliatory killings and persecution.",
+        "Road Mortalities": "Increasing road networks and vehicle traffic pose a threat to jackals through collisions and habitat fragmentation."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing protected areas and green corridors to maintain connectivity between jackal populations and conserve their habitats.",
+        "Community Engagement": "Promoting coexistence through education, raising awareness about the ecological role of jackals, and providing guidance on livestock protection measures.",
+        "Mitigation Measures": "Implementing measures such as speed limits, road signage, and underpasses to reduce road mortalities and mitigate human-jackal conflicts."
+    }
+},
+{
+    "name": "Striped Hyena",
+    "abstract": "The striped hyena (Hyaena hyaena) is a species of hyena native to North and East Africa, the Middle East, the Caucasus, and the Indian subcontinent. It is characterized by its distinctive black and white striped fur and robust build.",
+    "totalPopulation": 10000,
+    "populationArray": "",
+    "populationTrend": "Decreasing",
+    "habitat": "Deserts, savannas, grasslands, scrublands, and human-dominated landscapes",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Carnivora",
+        "Family": "Hyaenidae",
+        "Genus": "Hyaena",
+        "Species": "Hyaena hyaena"
+    },
+    "threats": {
+        "Habitat Loss": "Habitat degradation and fragmentation due to human activities such as agriculture, urbanization, and infrastructure development.",
+        "Human-Hyena Conflict": "Occasional attacks on livestock and scavenging in human settlements lead to conflicts, resulting in retaliatory killings and persecution.",
+        "Poaching": "Illegal hunting and trapping for traditional medicine and fur, and incidental trapping in snares set for other wildlife."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing and expanding protected areas, wildlife reserves, and conservation corridors to conserve hyena habitats and populations.",
+        "Community Engagement": "Raising awareness about the ecological role of hyenas, promoting coexistence through education and outreach, and providing guidance on livestock protection measures.",
+        "Anti-Poaching Efforts": "Strengthening enforcement of wildlife protection laws, conducting anti-poaching patrols, and collaborating with local communities to combat illegal hunting and trapping."
+    }
+},
+{
+    "name": "Indian Pangolin",
+    "abstract": "The Indian pangolin (Manis crassicaudata) is a species of pangolin found in the Indian subcontinent. It is characterized by its overlapping scales, long tongue, and ability to curl into a ball for protection.",
+    "totalPopulation": 20000,
+    "populationArray": "",
+    "populationTrend": "Decreasing",
+    "habitat": "Tropical and subtropical forests, grasslands, and agricultural landscapes",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Pholidota",
+        "Family": "Manidae",
+        "Genus": "Manis",
+        "Species": "Manis crassicaudata"
+    },
+    "threats": {
+        "Habitat Loss": "Deforestation, conversion of forests into agricultural land, and fragmentation of pangolin habitats due to human activities such as logging, agriculture, and infrastructure development.",
+        "Poaching": "Illegal hunting and trafficking of pangolins for their scales, meat, and body parts, driven by demand for traditional medicine, culinary delicacies, and wildlife products.",
+        "Human-Pangolin Conflict": "Encounters with humans, accidental entanglement in fishing nets, and roadkill contribute to mortality and habitat disturbance."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing protected areas, wildlife reserves, and conservation corridors to conserve pangolin habitats and populations.",
+        "Community Engagement": "Raising awareness about the importance of pangolins in ecosystems, promoting sustainable land-use practices, and encouraging reporting of pangolin sightings to aid conservation efforts.",
+        "Anti-Poaching Efforts": "Strengthening law enforcement efforts, conducting anti-poaching patrols, and collaborating with law enforcement agencies and wildlife authorities to combat illegal pangolin trade and trafficking."
+    }
+},
+{
+    "name": "Indian Hare",
+    "abstract": "The Indian hare (Lepus nigricollis) is a species of hare found in the Indian subcontinent. It is characterized by its slender build, long ears, and reddish-brown fur.",
+    "totalPopulation": 100000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Grasslands, scrublands, agricultural fields, and open woodlands",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Lagomorpha",
+        "Family": "Leporidae",
+        "Genus": "Lepus",
+        "Species": "Lepus nigricollis"
+    },
+    "threats": {
+        "Habitat Loss": "Conversion of natural habitats into agricultural land, urbanization, and habitat fragmentation due to human activities.",
+        "Predation": "Predation by domestic and feral dogs, cats, and birds of prey poses a threat to Indian hare populations, especially in fragmented landscapes.",
+        "Human Disturbance": "Human activities such as agriculture, grazing, and infrastructure development contribute to habitat disturbance and displacement of hares."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing protected areas, wildlife reserves, and green corridors to conserve Indian hare habitats and populations.",
+        "Habitat Restoration": "Implementing habitat restoration projects, promoting natural regeneration, and creating buffer zones to enhance habitat quality and connectivity.",
+        "Public Awareness": "Raising awareness about the ecological importance of Indian hares, promoting responsible land-use practices, and advocating for the protection of hare habitats."
+    }
+},
+{
+    "name": "Indian Giant Squirrel",
+    "abstract": "The Indian giant squirrel (Ratufa indica) is a large tree-dwelling rodent species found in forests across the Indian subcontinent. It is known for its striking multicolored fur and long, bushy tail.",
+    "totalPopulation": 15000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Tropical and subtropical forests, including deciduous, evergreen, and mixed forests",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Rodentia",
+        "Family": "Sciuridae",
+        "Genus": "Ratufa",
+        "Species": "Ratufa indica"
+    },
+    "threats": {
+        "Habitat Loss": "Deforestation, logging, and conversion of forests for agriculture and infrastructure development threaten the Indian giant squirrel's habitat.",
+        "Hunting": "Illegal hunting and poaching for meat, fur, and traditional medicine pose a threat to squirrel populations in some areas.",
+        "Fragmentation": "Habitat fragmentation due to human activities isolates squirrel populations, leading to reduced genetic diversity and increased vulnerability to extinction."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing and expanding protected areas, wildlife reserves, and conservation corridors to conserve Indian giant squirrel habitats and populations.",
+        "Habitat Restoration": "Implementing habitat restoration projects, promoting reforestation, and creating connectivity between fragmented forest patches.",
+        "Community Engagement": "Raising awareness about the ecological importance of Indian giant squirrels, promoting sustainable forest management practices, and involving local communities in conservation efforts."
+    }
+},
+{
+    "name": "Indian Porcupine",
+    "abstract": "The Indian porcupine (Hystrix indica) is a large rodent species found in various habitats across the Indian subcontinent. It is characterized by its sharp, barbed quills and nocturnal habits.",
+    "totalPopulation": 30000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Grasslands, scrublands, forests, and agricultural areas",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Rodentia",
+        "Family": "Hystricidae",
+        "Genus": "Hystrix",
+        "Species": "Hystrix indica"
+    },
+    "threats": {
+        "Habitat Loss": "Habitat destruction and fragmentation due to agricultural expansion, urbanization, and human settlements.",
+        "Hunting": "Illegal hunting and poaching for meat, quills, and traditional medicine pose a threat to porcupine populations in some regions.",
+        "Road Mortalities": "Increasing road networks and vehicle traffic result in porcupine fatalities through collisions and habitat fragmentation."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing protected areas, wildlife sanctuaries, and green corridors to conserve porcupine habitats and populations.",
+        "Habitat Connectivity": "Creating wildlife corridors and promoting landscape connectivity to facilitate movement and gene flow between porcupine populations.",
+        "Public Awareness": "Raising awareness about the ecological role of porcupines, promoting responsible land-use practices, and advocating for the protection of their habitats."
+    }
+},
+{
+    "name": "Indian Flying Fox (Fruit Bat)",
+    "abstract": "The Indian flying fox (Pteropus giganteus) is a species of megabat found in South Asia. It is one of the largest bats in the world and plays a vital role in pollination and seed dispersal.",
+    "totalPopulation": 1000000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Forests, woodlands, orchards, and urban areas",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Chiroptera",
+        "Family": "Pteropodidae",
+        "Genus": "Pteropus",
+        "Species": "Pteropus giganteus"
+    },
+    "threats": {
+        "Habitat Loss": "Deforestation, habitat degradation, and urbanization lead to the loss and fragmentation of flying fox habitats.",
+        "Hunting": "Illegal hunting and persecution due to misconceptions and fear, driven by superstitions and beliefs.",
+        "Disease": "Outbreaks of diseases such as Nipah virus pose a threat to flying fox populations and public health."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing protected areas, wildlife sanctuaries, and bat roosting sites to conserve flying fox habitats and populations.",
+        "Public Awareness": "Educating communities about the ecological importance of flying foxes, dispelling myths and misconceptions, and promoting bat-friendly practices.",
+        "Disease Surveillance": "Monitoring and surveillance of disease outbreaks in bat populations to prevent and control the spread of zoonotic diseases such as Nipah virus."
+    }
+},
+{
+    "name": "Indian Civet",
+    "abstract": "The Indian civet (Viverra civettina) is a small carnivorous mammal found in forests and rural areas across the Indian subcontinent. It is known for its distinctive coat markings and nocturnal habits.",
+    "totalPopulation": 20000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Forests, grasslands, scrublands, and agricultural landscapes",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Carnivora",
+        "Family": "Viverridae",
+        "Genus": "Viverra",
+        "Species": "Viverra civettina"
+    },
+    "threats": {
+        "Habitat Loss": "Deforestation, habitat degradation, and fragmentation due to human activities such as logging, agriculture, and urbanization.",
+        "Hunting": "Illegal hunting and trapping for civet oil and musk glands used in perfumes, as well as for their meat and fur.",
+        "Human-Wildlife Conflict": "Encounters with humans, predation on poultry, and crop raiding lead to conflicts and retaliatory killings."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing protected areas, wildlife reserves, and conservation corridors to safeguard civet habitats and populations.",
+        "Community Engagement": "Promoting coexistence through education and outreach, implementing livestock protection measures, and providing alternative livelihoods.",
+        "Anti-Poaching Efforts": "Strengthening enforcement of wildlife protection laws, conducting anti-poaching patrols, and collaborating with local communities to combat illegal hunting and trade."
+    }
+},
+{
+    "name": "Indian Palm Civet",
+    "abstract": "The Indian palm civet (Paradoxurus hermaphroditus) is a small omnivorous mammal found in forests and human-dominated landscapes across the Indian subcontinent. It is known for its distinctive coat markings and nocturnal habits.",
+    "totalPopulation": 25000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Forests, plantations, urban areas, and agricultural landscapes",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Carnivora",
+        "Family": "Viverridae",
+        "Genus": "Paradoxurus",
+        "Species": "Paradoxurus hermaphroditus"
+    },
+    "threats": {
+        "Habitat Loss": "Deforestation, habitat degradation, and urbanization lead to the loss and fragmentation of palm civet habitats.",
+        "Hunting": "Illegal hunting and trapping for civet coffee production, as well as for their meat and musk glands used in traditional medicine and perfumes.",
+        "Road Mortalities": "Increasing road networks and vehicle traffic result in palm civet fatalities through collisions and habitat fragmentation."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing protected areas, wildlife sanctuaries, and green corridors to conserve palm civet habitats and populations.",
+        "Habitat Connectivity": "Creating wildlife corridors and promoting landscape connectivity to facilitate movement and gene flow between palm civet populations.",
+        "Public Awareness": "Raising awareness about the ecological role of palm civets, promoting responsible land-use practices, and advocating for the protection of their habitats."
+    }
+},
+{
+    "name": "Indian Grey Mongoose",
+    "abstract": "The Indian grey mongoose (Herpestes edwardsii) is a small carnivorous mammal found in a wide range of habitats across the Indian subcontinent. It is known for its agility, speed, and ability to prey on snakes.",
+    "totalPopulation": 50000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Forests, grasslands, scrublands, agricultural areas, and urban environments",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Carnivora",
+        "Family": "Herpestidae",
+        "Genus": "Herpestes",
+        "Species": "Herpestes edwardsii"
+    },
+    "threats": {
+        "Habitat Loss": "Deforestation, habitat degradation, and urbanization lead to the loss and fragmentation of mongoose habitats.",
+        "Hunting": "Illegal hunting and trapping for their fur, as well as persecution due to conflicts with poultry farmers.",
+        "Road Mortalities": "Increasing road networks and vehicle traffic result in mongoose fatalities through collisions and habitat fragmentation."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing protected areas, wildlife sanctuaries, and green corridors to conserve mongoose habitats and populations.",
+        "Habitat Connectivity": "Creating wildlife corridors and promoting landscape connectivity to facilitate movement and gene flow between mongoose populations.",
+        "Public Awareness": "Raising awareness about the ecological role of mongooses, promoting responsible land-use practices, and advocating for the protection of their habitats."
+    }
+},
+{
+    "name": "Indian Flying Squirrel",
+    "abstract": "The Indian flying squirrel (Petaurista philippensis) is a species of flying squirrel found in forests across the Indian subcontinent. It is known for its large, patagium-supported gliding membrane that enables it to glide between trees.",
+    "totalPopulation": 100000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Tropical and subtropical forests, including deciduous, evergreen, and mixed forests",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Rodentia",
+        "Family": "Sciuridae",
+        "Genus": "Petaurista",
+        "Species": "Petaurista philippensis"
+    },
+    "threats": {
+        "Habitat Loss": "Deforestation, logging, and conversion of forests for agriculture and infrastructure development threaten flying squirrel habitats.",
+        "Hunting": "Illegal hunting and trapping for their fur, as well as persecution due to conflicts with fruit growers.",
+        "Fragmentation": "Habitat fragmentation due to human activities isolates flying squirrel populations, leading to reduced genetic diversity and increased vulnerability to extinction."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing and expanding protected areas, wildlife reserves, and conservation corridors to conserve flying squirrel habitats and populations.",
+        "Habitat Restoration": "Implementing habitat restoration projects, promoting reforestation, and creating connectivity between fragmented forest patches.",
+        "Community Engagement": "Raising awareness about the ecological importance of flying squirrels, promoting sustainable forest management practices, and involving local communities in conservation efforts."
+    }
+},
+{
+    "name": "Indian Peafowl",
+    "abstract": "The Indian peafowl (Pavo cristatus) is a large and colorful bird species native to South Asia. It is known for its iridescent plumage and extravagant courtship displays.",
+    "totalPopulation": 500000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Woodlands, forests, grasslands, and agricultural areas",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Aves",
+        "Order": "Galliformes",
+        "Family": "Phasianidae",
+        "Genus": "Pavo",
+        "Species": "Pavo cristatus"
+    },
+    "threats": {
+        "Habitat Loss": "Deforestation, habitat degradation, and conversion of natural habitats for agriculture and human settlements threaten peafowl habitats.",
+        "Hunting": "Illegal hunting and poaching for meat, feathers, and decorative items, as well as for traditional rituals and ceremonies.",
+        "Predation": "Predation by feral dogs, cats, and other predators on eggs, chicks, and adults poses a threat to peafowl populations."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing protected areas, wildlife reserves, and conservation zones to conserve peafowl habitats and populations.",
+        "Habitat Restoration": "Implementing habitat restoration projects, promoting agroforestry, and creating buffer zones to enhance peafowl habitat quality and connectivity.",
+        "Community Engagement": "Engaging local communities in peafowl conservation through education and awareness programs, promoting ecotourism, and involving stakeholders in habitat management."
+    }
+},
+{
+    "name": "Blackbuck (Indian Antelope)",
+    "abstract": "The blackbuck (Antilope cervicapra), also known as the Indian antelope, is an elegant and swift ungulate species native to the Indian subcontinent. It is known for its distinctive spiral horns and striking black and white coat.",
+    "totalPopulation": 50000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Open plains, grasslands, scrublands, and agricultural areas",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Mammalia",
+        "Order": "Artiodactyla",
+        "Family": "Bovidae",
+        "Genus": "Antilope",
+        "Species": "Antilope cervicapra"
+    },
+    "threats": {
+        "Habitat Loss": "Habitat degradation and fragmentation due to agriculture, grazing, and human settlements lead to loss and degradation of blackbuck habitats.",
+        "Poaching": "Illegal hunting and poaching for meat, trophies, and traditional medicine pose a threat to blackbuck populations in some areas.",
+        "Human Disturbance": "Human activities such as agriculture, grazing, and infrastructure development disturb blackbuck habitats and disrupt their natural behavior."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing and expanding protected areas, wildlife sanctuaries, and conservation reserves to safeguard blackbuck habitats and populations.",
+        "Community Engagement": "Engaging local communities in blackbuck conservation through education and awareness programs, promoting sustainable land-use practices, and involving stakeholders in habitat management.",
+        "Anti-Poaching Efforts": "Strengthening law enforcement efforts, conducting anti-poaching patrols, and implementing measures to combat illegal hunting and trade of blackbucks."
+    }
+},
+{
+    "name": "Indian Python",
+    "abstract": "The Indian python (Python molurus) is a species of large non-venomous snake found in the forests and grasslands of the Indian subcontinent. It is known for its powerful constriction and secretive behavior.",
+    "totalPopulation": 20000,
+    "populationArray": "",
+    "populationTrend": "Stable",
+    "habitat": "Tropical and subtropical forests, grasslands, wetlands, and agricultural areas",
+    "taxonomy": {
+        "Kingdom": "Animalia",
+        "Phylum": "Chordata",
+        "Class": "Reptilia",
+        "Order": "Squamata",
+        "Family": "Pythonidae",
+        "Genus": "Python",
+        "Species": "Python molurus"
+    },
+    "threats": {
+        "Habitat Loss": "Deforestation, habitat degradation, and conversion of natural habitats for agriculture, urbanization, and infrastructure development threaten python habitats.",
+        "Hunting": "Illegal hunting and poaching for their skins, meat, and body parts, as well as for the pet trade.",
+        "Human-Wildlife Conflict": "Encounters with humans, accidental killings, and retaliatory killings due to fear and misconceptions."
+    },
+    "conservationAction": {
+        "Protected Areas": "Establishing and expanding protected areas, wildlife sanctuaries, and conservation zones to conserve python habitats and populations.",
+        "Habitat Restoration": "Implementing habitat restoration projects, promoting reforestation, and creating buffer zones to enhance python habitat quality and connectivity.",
+        "Community Engagement": "Raising awareness about the ecological importance of pythons, promoting responsible land-use practices, and involving local communities in python conservation efforts."
+    }
+}    
+]
