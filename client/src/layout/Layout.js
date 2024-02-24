@@ -7,11 +7,9 @@ import Footer from '../components/footer/Footer'
 const Layout = () => {
   return (
     <>
-    <Header />
     <main>
         <Routers />
     </main>
-    <Footer />
     </>
   )
 }
