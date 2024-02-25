@@ -84,12 +84,12 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="md:ml-6 mt-3 md:mt-0">
-                  <a
+                  <Link
                     className="inline-block font-semibold px-4 py-2 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded"
-                    href="book-appointment.html"
+                    to="/quiz"
                   >
                     Take a Quiz
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

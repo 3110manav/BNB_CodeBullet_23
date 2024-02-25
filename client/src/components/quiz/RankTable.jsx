@@ -27,7 +27,6 @@ const RankTable = () => {
           <tr>
             <th>Rank</th>
             <th>Avatar</th>
-            <th>Name</th>
             <th>Email</th>
             <th>Phone Number</th>
           </tr>
@@ -37,7 +36,6 @@ const RankTable = () => {
             <tr key={index}>
               <td>{index+1}</td>
               <td><img src={row.avatar} alt="Avatar" className="avatar" /></td>
-              <td>{row.name}</td>
               <td>{row.email}</td>
               <td>{row.phone}</td>
             </tr>
