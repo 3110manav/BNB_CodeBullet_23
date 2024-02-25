@@ -1,41 +1,142 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
+import Chart from "chart.js/auto";
+import PlantTable from "./PlantTable";
+import HabitateTable from "./HabitateTable";
+import EndangerTable from "./EndangerTable";
+import parkData from "../../constant/parkInfo.json";
 
 const ParkDetails = () => {
+  const [tab, setTab] = useState("habitate");
+  const sanjayGandhiPark = parkData.find(
+    (park) => park.name === "Sanjay Gandhi National Park"
+  );
+
+  if (!sanjayGandhiPark) {
+    return <p>Sanjay Gandhi National Park data not found.</p>;
+  }
+
+  // Destructure data for easier use
+  const {
+    name,
+    abstract,
+    habitat,
+    animals,
+    extinctAnimals,
+    climate,
+    plants,
+    threats,
+    conservationActions,
+  } = sanjayGandhiPark;
+
+  //   const animalLabels = animals.map((animal) => animal.name);
+  //   const animalData = animals.map((animal) => animal.population);
+
+  //   // Use useRef to hold the chart instance
+  //   const chartRef = useRef(null);
+
+  //   // Create a new pie chart when the component is mounted
+  //   useEffect(() => {
+  //     const ctx = document.getElementById("animalPieChart");
+
+  //     // Destroy the previous chart instance to avoid memory leaks
+  //     if (chartRef.current) {
+  //       chartRef.current.destroy();
+  //     }
+
+  //     chartRef.current = new Chart(ctx, {
+  //       type: "pie",
+  //       data: {
+  //         labels: animalLabels,
+  //         datasets: [
+  //           {
+  //             data: animalData,
+  //             backgroundColor: [
+  //               "#FF6384",
+  //               "#36A2EB",
+  //               "#FFCE56",
+  //               "#4CAF50",
+  //               "#FF9800",
+  //               // Add more colors as needed
+  //             ],
+  //           },
+  //         ],
+  //       },
+  //       options: {
+  //         responsive: true,
+  //       },
+  //     });
+  //   }, [animalLabels, animalData]);
+
   return (
     <>
-      <div className="m-5 p-5 ">
-        <div className="w-2/3">
-          <h3 className="text-4xl font-bold mb-4">
-            Sanjay Gandhi National Park
-          </h3>
-          <p className="text-lg text-gray-700">
-            Sanjay Gandhi National Park, located in Mumbai, serves as a green
-            sanctuary within the bustling city. Home to diverse flora and fauna,
-            the park offers a tranquil retreat and a unique blend of nature and
-            urban life. Explore its expansive landscapes, discover ancient caves
-            like Kanheri, and witness the coexistence of wildlife amidst the
-            urban sprawl.
-          </p>
+      <div className="flex flex-wrap">
+        <div className="w-full lg:w-2/3 p-5">
+          <div>
+            <h3 className="text-4xl font-bold mb-4">{name}</h3>
+            <p className="text-lg text-gray-700">{abstract}</p>
+          </div>
+
+          <div className="mt-[50px] border-b border-solid border-[#0066ff34]">
+            <button
+              className={` ${
+                tab === "habitate" &&
+                "border-b border-solid border-primaryColor"
+              } py-2 px-5 mr-5 text-[16px] leading-7 text-headingColor font-semibold`}
+              onClick={() => setTab("habitate")}
+            >
+              Habitate Species
+            </button>
+            <button
+              className={` ${
+                tab === "endanger" &&
+                "border-b border-solid border-primaryColor"
+              } py-2 px-5 mr-5 text-[16px] leading-7 text-headingColor font-semibold`}
+              onClick={() => setTab("endanger")}
+            >
+                Rare Species
+            </button>
+            <button
+              className={` ${
+                tab === "plant" && "border-b border-solid border-primaryColor"
+              } py-2 px-5 mr-5 text-[16px] leading-7 text-headingColor font-semibold`}
+              onClick={() => setTab("plant")}
+            >
+              Plant Species
+            </button>
+
+            <div className="mt-[50px]">
+              {tab === "habitate" && <HabitateTable data={animals} />}
+              {tab === "plant" && <PlantTable data={plants} />}
+              {tab === "endanger" && <EndangerTable data={extinctAnimals} />}
+            </div>
+          </div>
         </div>
 
-        <div className="mt-5 lg:mt-10 flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
-          <div className="text-[14px] leading-[36px] lg:text-[24px] lg:leading-[32px] font-[700] text-blue-500">
-            <h2>370+</h2>
-            <span className="w-16 h-2 bg-yellow-500 rounded-full block mt-[-10px]"></span>
-            <p className="text-gray-600 text-[16px]">Wildlife Species</p>
+        <div className="w-full lg:w-1/3 p-9">
+          <iframe
+            src="https://my.atlist.com/map/5e332bba-e701-47fe-aee8-8ddd4f610ecd?share=true"
+            allow="geolocation 'self' https://my.atlist.com"
+            width="100%"
+            height="400px"
+            loading="lazy"
+            frameBorder="0"
+            scrolling="no"
+            allowFullScreen
+          ></iframe>
+
+          <div className="mt-8 p-4 border border-gray-300 rounded-md">
+            <h4 className="text-xl font-semibold mb-4">Threats</h4>
+            <ul className="list-disc pl-6">
+              {Object.entries(threats).map(([threat, description], index) => (
+                <li key={index}>
+                  <strong>{threat}:</strong> {description}
+                </li>
+              ))}
+            </ul>
           </div>
 
-          <div className="text-[14px] leading-[36px] lg:text-[24px] lg:leading-[32px] font-[700] text-purple-500">
-            <h2>15+</h2>
-            <span className="w-16 h-2 bg-teal-400 rounded-full block mt-[-10px]"></span>
-            <p className="text-gray-600 text-[16px]">Endangered Species</p>
-          </div>
-
-          <div className="text-[14px] leading-[36px] lg:text-[24px] lg:leading-[32px] font-[700] text-green-500">
-            <h2>1526+</h2>
-            <span className="w-16 h-2 bg-blue-500 rounded-full block mt-[-10px]"></span>
-            <p className="text-gray-600 text-[16px]">Plant Species</p>
-          </div>
+          {/* 
+          <canvas id="animalPieChart" width="200" height="200"></canvas> */}
         </div>
       </div>
     </>
