@@ -21,7 +21,7 @@ const SignUp = ({ onClose }) => {
     // After successful login, you can close the modal using onClose
     const response = await authenticateSignup(signUpData);
     console.log(response)
-    // onClose();
+    onClose();
     
   };
 
@@ -45,7 +45,7 @@ const SignUp = ({ onClose }) => {
             id="email"
             className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             placeholder="name@company.com"
-            required=""
+            required
             onChange={(e) => handleInputChange(e)}
             value={signUpData.email}
           />
@@ -63,7 +63,7 @@ const SignUp = ({ onClose }) => {
             id="password"
             placeholder="••••••••"
             className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-            required=""
+            required
             onChange={(e) => handleInputChange(e)}
             value={signUpData.password}
           />
@@ -79,7 +79,7 @@ const SignUp = ({ onClose }) => {
             id="gender"
             name="gender"
             className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-            required=""
+            required
             onChange={(e) => handleInputChange(e)}
             value={signUpData.gender}
           >
@@ -105,7 +105,7 @@ const SignUp = ({ onClose }) => {
             minLength="10"
             className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             placeholder="Enter your mobile number"
-            required=""
+            required
             onChange={(e) => handleInputChange(e)}
             value={signUpData.phoneNumber}
           />
@@ -118,7 +118,7 @@ const SignUp = ({ onClose }) => {
                 aria-describedby="remember"
                 type="checkbox"
                 className="bg-gray-50 border border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
-                required=""
+                required
               />
             </div>
             <div className="text-sm ml-3">

@@ -10,7 +10,7 @@ const LogIn = ({ onClose }) => {
 
   const closeSignUpModal = () => {
     setIsSignUpModalOpen(false);
-  };
+    onClose()  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -24,7 +24,7 @@ const LogIn = ({ onClose }) => {
     <div className="bg-white relative w-full mt-5">
       <form
         className="space-y-6 px-6 lg:px-8 pb-4 sm:pb-6 xl:pb-8 w-full"
-        onSubmit={handleSubmit}
+        onSubmit={(e)=>{handleSubmit(e)}}
       >
         <h3 className="text-xl font-medium text-gray-900">
           Log In to our platform
