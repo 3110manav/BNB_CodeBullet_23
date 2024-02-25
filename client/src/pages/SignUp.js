@@ -1,12 +1,25 @@
-import React from "react";
+import React,{useState} from "react";
 
 const SignUp = ({ onClose }) => {
+  const [signUpData,setSignUpData] = useState({
+    email:"",
+    phoneNumber:"",
+    gender:"",
+    phoneNumber:""
+  });
+
+  const handleInputChange = (e) => {
+    setSignUpData({ ...signUpData, [e.target.name]: e.target.value });
+    console.log(signUpData)
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle login logic here
     // You can add your authentication code or API calls
     // After successful login, you can close the modal using onClose
     onClose();
+    
   };
 
   return (
@@ -30,6 +43,8 @@ const SignUp = ({ onClose }) => {
             className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             placeholder="name@company.com"
             required=""
+            onChange={(e) => handleInputChange(e)}
+            value={signUpData.email}
           />
         </div>
         <div>
@@ -46,6 +61,8 @@ const SignUp = ({ onClose }) => {
             placeholder="••••••••"
             className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             required=""
+            onChange={(e) => handleInputChange(e)}
+            value={signUpData.password}
           />
         </div>
         <div>
@@ -60,6 +77,8 @@ const SignUp = ({ onClose }) => {
             name="gender"
             className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             required=""
+            onChange={(e) => handleInputChange(e)}
+            value={signUpData.gender}
           >
             <option value="">Select Gender</option>
             <option value="male">Male</option>
@@ -84,6 +103,8 @@ const SignUp = ({ onClose }) => {
             className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             placeholder="Enter your mobile number"
             required=""
+            onChange={(e) => handleInputChange(e)}
+            value={signUpData.phoneNumber}
           />
         </div>
         <div className="flex justify-between">

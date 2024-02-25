@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import quizData from '../../constant/quizData.json'
+import RankTable from './RankTable.jsx'
 import './quizStyles.css'
 const Quiz = () => {
-    const quizQuestions  = quizData;
+    const quizQuestions = quizData;
     let questions = new Array(5)
     // console.log(questions)
     for (let i = 0; i < 5; i++) {
@@ -28,27 +29,32 @@ const Quiz = () => {
         }
     };
     return (
-        <div className="quizContainer">
-            <div className='app'>
-                {showScore ? (
-                    <div className='score-section'>
-                        You scored {score} out of {questions.length}
-                    </div>
-                ) : (
-                    <>
-                        <div className='question-section'>
-                            <div className='question-count'>
-                                <span>Question {currentQuestion + 1}</span>/{questions.length}
+        <div>
+            <div className="quizContainer">
+                <div className='app'>
+                    {showScore ? (
+                        <div className='score-section'>
+                            You scored {score} out of {questions.length}
+                        </div>
+                    ) : (
+                        <>
+                            <div className='question-section'>
+                                <div className='question-count'>
+                                    <span className='question-number'>Question {currentQuestion + 1}</span>/{questions.length}
+                                </div>
+                                <div className='question-text'>{questions[currentQuestion].questionText}</div>
                             </div>
-                            <div className='question-text'>{questions[currentQuestion].questionText}</div>
-                        </div>
-                        <div className='answer-section'>
-                            {questions[currentQuestion].answerOptions.map((answerOption,index) => (
-                                <button key={index} className="quiz-btn" onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
-                            ))}
-                        </div>
-                    </>
-                )}
+                            <div className='answer-section'>
+                                {questions[currentQuestion].answerOptions.map((answerOption, index) => (
+                                    <button key={index} className="quiz-btn" onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+                                ))}
+                            </div>
+                        </>
+                    )}
+                </div>
+            </div>
+            <div>
+                <RankTable/>
             </div>
         </div>
     )

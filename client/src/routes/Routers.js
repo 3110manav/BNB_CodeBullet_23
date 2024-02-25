@@ -3,6 +3,7 @@ import Home from '../pages/Home';
 import News from '../components/news/News'
 import Events from '../components/events/Events'
 import Quiz from '../components/quiz/Quiz.jsx'
+import RankTable from '../components/quiz/RankTable.jsx';
 import Parks from '../components/parks/Parks';
 import ParkDetails from '../components/parks/ParkDetails';
 
@@ -16,6 +17,7 @@ const Routers = () => {
     <Route path='/park' element={<Parks />} />
     <Route path='/park-details' element={<ParkDetails />} />
     <Route path='/quiz' element={<Quiz/>} />
+    <Route path='/table' element={<RankTable/>} />
    </Routes>
   )
 }
