@@ -1,11 +1,11 @@
 import React,{useState} from "react";
-
+import {authenticateSignup} from '../service/api.js'
 const SignUp = ({ onClose }) => {
   const [signUpData,setSignUpData] = useState({
     email:"",
     phoneNumber:"",
     gender:"",
-    phoneNumber:""
+    password:""
   });
 
   const handleInputChange = (e) => {
@@ -13,12 +13,15 @@ const SignUp = ({ onClose }) => {
     console.log(signUpData)
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
+    console.log("hellooooo")
     // Handle login logic here
     // You can add your authentication code or API calls
     // After successful login, you can close the modal using onClose
-    onClose();
+    const response = await authenticateSignup(signUpData);
+    console.log(response)
+    // onClose();
     
   };
 
@@ -26,7 +29,7 @@ const SignUp = ({ onClose }) => {
     <div className="bg-white relative w-full mt-5">
       <form
         className="space-y-6 px-6 lg:px-8 pb-4 sm:pb-6 xl:pb-8 w-full"
-        onSubmit={handleSubmit}
+        onSubmit={(e)=>handleSubmit(e)}
       >
         <h3 className="text-xl font-medium text-gray-900">Sign Up</h3>
         <div>
@@ -96,7 +99,7 @@ const SignUp = ({ onClose }) => {
           <input
             type="tel"
             id="mobile"
-            name="mobile"
+            name="phoneNumber"
             pattern="[0-9]{10}"
             maxLength="10"
             minLength="10"
@@ -132,6 +135,7 @@ const SignUp = ({ onClose }) => {
         <button
           type="submit"
           className="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+          
         >
           Sign In
         </button>
