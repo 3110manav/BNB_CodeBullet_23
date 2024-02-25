@@ -3,13 +3,16 @@ import SignUp from "./SignUp";
 
 const LogIn = ({ onClose }) => {
   const [isSignUpModalOpen, setIsSignUpModalOpen] = useState(false);
-  const openSignUpModal = () => {
+  const openSignUpModal = (e) => {
+    e.preventDefault();
     // onClose();
     setIsSignUpModalOpen(true);
   };
 
-  const closeSignUpModal = () => {
+  const closeSignUpModal = (e) => {
+    e.preventDefault();
     setIsSignUpModalOpen(false);
+    onClose(e)
   };
 
   const handleSubmit = (e) => {
@@ -17,14 +20,14 @@ const LogIn = ({ onClose }) => {
     // Handle login logic here
     // You can add your authentication code or API calls
     // After successful login, you can close the modal using onClose
-    onClose();
+    onClose(e);
   };
 
   return (
     <div className="bg-white relative w-full mt-5">
       <form
         className="space-y-6 px-6 lg:px-8 pb-4 sm:pb-6 xl:pb-8 w-full"
-        onSubmit={handleSubmit}
+        onSubmit={(e)=>handleSubmit(e)}
       >
         <h3 className="text-xl font-medium text-gray-900">
           Log In to our platform
@@ -93,8 +96,7 @@ const LogIn = ({ onClose }) => {
           <button
             className="text-blue-700 hover:underline"
             onClick={(e) => {
-              e.preventDefault();
-              openSignUpModal(); // Open the signup modal
+              openSignUpModal(e); // Open the signup modal
             }}
           >
             Create account
@@ -104,18 +106,18 @@ const LogIn = ({ onClose }) => {
         {/* Sign Up Modal */}
         {isSignUpModalOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto w-full">
-            <div
+            {/* <div
               className="fixed inset-0 transition-opacity"
               aria-hidden="true"
-              onClick={closeSignUpModal}
+              onClick={(e)=>closeSignUpModal(e)}
             >
               <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
-            </div>
+            </div> */}
 
             <div className="relative z-50 bg-white rounded-lg shadow-xl w-[500px] p-6">
               <button
                 className="absolute top-0 right-0 p-2"
-                onClick={closeSignUpModal}
+                onClick={(e)=>closeSignUpModal(e)}
               >
                 <svg
                   className="w-6 h-6 text-gray-700"
@@ -133,7 +135,7 @@ const LogIn = ({ onClose }) => {
                 </svg>
               </button>
 
-              <SignUp onClose={closeSignUpModal} />
+              <SignUp onClose={onClose} />
             </div>
           </div>
         )}
