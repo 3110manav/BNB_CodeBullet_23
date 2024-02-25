@@ -12,6 +12,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import animalData from "../constant/data.json";
 
+
 const Home = () => {
 
   const settings = {
@@ -82,14 +83,6 @@ const Home = () => {
         </section>
       </div>
       {/* <!-- end hero --> */}
-
-      <section className="relative bg-gray-100 px-2 py-[90px]">
-        <Slider {...settings} className="m-10">
-          {animalData.map((animal) => (
-            <CarouselCard key={animal.name} {...animal} />
-          ))}
-        </Slider>
-      </section>
 
       {/* <!-- start about --> */}
       <section className="relative px-4 py-10 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-32">
@@ -182,24 +175,49 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="md:w-2/3 md:px-4 lg:w-1/3">
-            <div className="bg-white rounded-lg border border-gray-300 pt-8 pr-6 pl-6 pb-12">
-              {/* <!-- Increased padding for height --> */}
-              <img
-                src={ComImg}
-                alt="bg"
-                className="h-full mx-auto w-full rounded-lg"
-              />
-              <h4 className="text-xl font-bold mt-4">Habitat Conservation</h4>
-              <p className="mt-1">
-                We educate people on how to take are and protect, restore
-                natural wildlife .
-              </p>
-              <a href="#" className="block mt-4">
-                Read More
-              </a>
+    <div className="md:w-2/3 md:px-4 lg:w-1/3">
+        <div className="bg-white rounded-lg border border-gray-300 pt-8 pr-6 pl-6 pb-12"> 
+        {/* <!-- Increased padding for height --> */}
+            <img src={ComImg} alt="bg" className="h-full mx-auto w-full rounded-lg" />
+            <h4 className="text-xl font-bold mt-4">Habitat Conservation</h4>
+            <p className="mt-1">We educate people on how to take are and  protect, restore natural wildlife .</p>
+            <a href="#" className="block mt-4">Read More</a>
+        </div>
+    </div>
+
+
+          {/* <div className="md:w-1/2 md:px-4 mt-4 md:mt-0 lg:w-1/4">
+            <div className="bg-white rounded-lg border border-gray-300 p-8">
+            <img src={WildImg} alt="bg" className="h-20 mx-auto" />
+
+              <h4 className="text-xl font-bold mt-4">Endangered Species</h4>
+              <p className="mt-1">Discover the species which are rare and we're working to protect.</p>
+              <a href="#" className="block mt-4">Read More</a>
             </div>
           </div>
+
+          <div className="md:w-1/2 md:px-4 mt-4 md:mt-0 lg:w-1/4">
+            <div className="bg-white rounded-lg border border-gray-300 p-8">
+            <img src={EndImg} alt="bg" className="h-20 mx-auto" />
+
+
+              <h4 className="text-xl font-bold mt-4">Wildlife protection</h4>
+              <p className="mt-1">Education on how we can care for injured animals and orphaned animals.</p>
+              <a href="#" className="block mt-4">Read More</a>
+            </div>
+          </div>
+
+          <div className="md:w-1/2 md:px-4 mt-4 md:mt-0 lg:w-1/4">
+            <div className="bg-white rounded-lg border border-gray-300 p-8">
+            <img src={HabImg} alt="bg" className="h-20 mx-auto" />
+
+
+              <h4 className="text-xl font-bold mt-4">Community Engagement</h4>
+              <p className="mt-1">Discover different activities carried out on various events how you can get involved.</p>
+              <a href="#" className="block mt-4">Read More</a>
+            </div>
+          </div> */}
+
         </div>
       </section>
       {/* <!-- end about --> */}
@@ -239,7 +257,7 @@ const Home = () => {
       {/* <!-- end testimonials --> */}
 
       {/* <!-- start cta --> */}
-
+      
       {/* <section className="relative bg-blue-teal-gradient px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 text-center md:text-left">
         <div className="md:flex md:items-center md:justify-center">
           <h2 className="text-xl font-bold text-white">Join Us in Protecting Wildlife Today!</h2>
