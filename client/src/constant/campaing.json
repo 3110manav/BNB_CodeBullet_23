@@ -1,0 +1,43 @@
+[
+    {
+        "eventName": "Green Energy Symposium",
+        "date": "Friday, July 5th, 2024",
+        "time": "10:00 AM - 4:00 PM",
+        "location": "Renewable Energy Center",
+        "eventDetails": "Join industry leaders and experts in discussions about the latest advancements in green energy. Explore sustainable solutions for a cleaner future.",
+        "imageLink": "your_image_link_here"
+      },
+      {
+        "eventName": "Wildlife Photography Workshop",
+        "date": "Saturday, June 15th, 2024",
+        "time": "2:00 PM - 5:00 PM",
+        "location": "Nature Reserve Center",
+        "eventDetails": "Explore the art of wildlife photography with experts. Learn techniques to capture the beauty of nature and wildlife in their natural habitats.",
+        "imageLink": "your_image_link_here"
+      },
+      {
+        "eventName": "Tree Planting Campaign",
+        "date": "Saturday, May 5th, 2024",
+        "time": "9:00 AM - 12:00 PM",
+        "location": "Community Park",
+        "eventDetails": "Contribute to a greener tomorrow! Join our tree planting campaign and make a positive impact on the environment.",
+        "imageLink": "your_image_link_here"
+      },
+      {
+        "eventName": "Earth Day Festival",
+        "date": "Sunday, April 22nd, 2024",
+        "time": "12:00 PM - 6:00 PM",
+        "location": "City Park",
+        "eventDetails": "Celebrate Earth Day with us at our eco-friendly festival. Enjoy live music, sustainable vendors, and educational exhibits promoting environmental awareness.",
+        "imageLink": "your_image_link_here"
+      },
+      {
+        "eventName": "Ocean Cleanup Day",
+        "date": "Saturday, April 20th, 2024",
+        "time": "9:00 AM - 1:00 PM",
+        "location": "Beach Cleanup - Pacific Coast",
+        "eventDetails": "Join us for a day dedicated to cleaning up our oceans. Help remove plastics and debris from our beautiful beaches, ensuring a healthier marine environment.",
+        "imageLink": "your_image_link_here"
+      }
+      
+]
