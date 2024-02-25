@@ -45,7 +45,7 @@ const Parks = () => {
       {/* Horizontal Cards */}
       <div className="max-w-3xl rounded-lg shadow-md lg:flex md:flex shadow-green-600 mb-10" onClick={handleClick}>
         <img
-          className="object-cover w-full md:w-1/3 lg:w-1/3"
+          className="object-cover w-full md:w-1/3 lg:w-1/3 rounded-l-md"
           src="https://media.gettyimages.com/id/670706912/photo/nelspruit-south-africa-4-may-2016-care-for-wild-africa-is-a-donor-run-ngo-that-specializes-in.jpg?s=612x612&w=gi&k=20&c=gE5OibfLpNNL-czcuJR8m2TQOwZOJkbBmpoKhDr8hk4="
           alt="image"
         />
@@ -75,7 +75,7 @@ const Parks = () => {
 
       <div className="max-w-3xl rounded-lg shadow-md lg:flex md:flex shadow-green-600">
         <img
-          className="object-cover w-full md:w-1/3 lg:w-1/3"
+          className="object-cover w-full md:w-1/3 lg:w-1/3 rounded-l-md"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ankeny_National_Wildlife_Refuge.jpg/414px-Ankeny_National_Wildlife_Refuge.jpg"
           alt="image"
         />

@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
-import LogIn from "../../pages/LogIn";
+// import LogIn from "../../pages/LogIn";
+import CustomButton from "./CustomButton";
 // import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Header = () => {
@@ -91,19 +92,22 @@ const Header = () => {
                     Take a Quiz
                   </Link>
                 </li>
+                <li>
+                  <CustomButton/>
+                </li>
               </ul>
             </nav>
           </div>
         </div>
         {/* <Link to="/login"> */}
-          <button className="absolute top-0 right-0 m-4 font-semibold bg-teal-500 text-white p-1 pl-3 pr-3 ml-5 rounded-sm"
+          {/* <button className="absolute top-0 right-0 m-4 font-semibold bg-teal-500 text-white p-1 pl-3 pr-3 ml-5 rounded-sm"
           onClick={(e)=>openLoginModal(e)}
           type="button">
             Log In
-          </button>
+          </button> */}
         {/* </Link> */}
 
-        {isLoginModalOpen && (
+        {/* {isLoginModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto w-full">
           <div className="fixed inset-0 transition-opacity" aria-hidden="true" onClick={(e)=>onClose(e)}>
             <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
@@ -130,7 +134,7 @@ const Header = () => {
             <LogIn onClose={onClose} />
           </div>
         </div>
-      )}
+      )} */}
       </header>
     </>
   );
