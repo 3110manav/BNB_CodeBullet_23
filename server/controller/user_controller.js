@@ -40,9 +40,8 @@ export const userSignUp = async (req, res) => {
         const secPass = await bcrypt.hash(req.body.password, salt);
         
          user = await User.create({
+            username:req.body.username,
             email: req.body.email,
-            phoneNumber:req.body.phoneNumber,
-            gender:req.body.gender,
             password: secPass,
         })
         
