@@ -1,4 +1,5 @@
 import axios from 'axios'
+const URL = "http://localhost:5000";
 
 export const newsApi = async() => {
     try{
@@ -11,6 +12,15 @@ export const newsApi = async() => {
     }
 }
 
+export const authenticateSignup = async(data) => {
+    try{
+        let response = await axios.post(`${URL}/signup`, data);
+        return response.data;
+    }
+    catch(error){
+        console.log("error while authenticating signup : ", error);
+    }
+}
 /*
 export const getUserApi = async(username) => {
     try{

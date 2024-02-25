@@ -1,11 +1,11 @@
 import React,{useState} from "react";
-
+import {authenticateSignup} from '../service/api.js'
 const SignUp = ({ onClose }) => {
   const [signUpData,setSignUpData] = useState({
     email:"",
     password:"",
     gender:"",
-    phoneNumber:""
+    password:""
   });
 
   const handleInputChange = (e) => {
@@ -13,7 +13,7 @@ const SignUp = ({ onClose }) => {
     console.log(signUpData)
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
     console.log("hello")
     // Handle login logic here
@@ -135,6 +135,7 @@ const SignUp = ({ onClose }) => {
         <button
           // type="submit"
           className="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+          
         >
           Sign In
         </button>
