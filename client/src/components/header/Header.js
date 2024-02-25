@@ -6,11 +6,13 @@ import LogIn from "../../pages/LogIn";
 const Header = () => {
     const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
 
-    const openLoginModal = () => {
+    const openLoginModal = (e) => {
+        e.preventDefault();
         setIsLoginModalOpen(true);
       };
     
-      const closeLoginModal = () => {
+      const onClose = (e) => {
+        e.preventDefault();
         setIsLoginModalOpen(false);
       };
     
@@ -82,12 +84,12 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="md:ml-6 mt-3 md:mt-0">
-                  <a
+                  <Link
                     className="inline-block font-semibold px-4 py-2 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded"
-                    href="book-appointment.html"
+                    to="/quiz"
                   >
                     Take a Quiz
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -95,7 +97,7 @@ const Header = () => {
         </div>
         {/* <Link to="/login"> */}
           <button className="absolute top-0 right-0 m-4 font-semibold bg-teal-500 text-white p-1 pl-3 pr-3 ml-5 rounded-sm"
-          onClick={openLoginModal}
+          onClick={(e)=>openLoginModal(e)}
           type="button">
             Log In
           </button>
@@ -103,12 +105,12 @@ const Header = () => {
 
         {isLoginModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto w-full">
-          <div className="fixed inset-0 transition-opacity" aria-hidden="true" onClick={closeLoginModal}>
+          <div className="fixed inset-0 transition-opacity" aria-hidden="true" onClick={(e)=>onClose(e)}>
             <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
           </div>
 
           <div className="z-50 bg-white rounded-lg shadow-xl w-[500px] p-6">
-            <button className="top-0 right-0 p-2" onClick={closeLoginModal}>
+            <button className="top-0 right-0 p-2" onClick={(e)=>onClose(e)}>
               <svg
                 className="w-6 h-6 text-gray-700"
                 fill="none"
@@ -125,7 +127,7 @@ const Header = () => {
               </svg>
             </button>
 
-            <LogIn onClose={closeLoginModal} />
+            <LogIn onClose={onClose} />
           </div>
         </div>
       )}
