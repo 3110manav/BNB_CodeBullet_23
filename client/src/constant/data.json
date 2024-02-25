@@ -1,7 +1,7 @@
 [
     {
         "name":"lion",
-        "Image":"http://4.bp.blogspot.com/-xJxeP-SiSSQ/UWk0iUK-SUI/AAAAAAAAAFs/XeF6ccjodcQ/s1600/Lion-King-Of-Jungle.jpg",
+        "image":"http://4.bp.blogspot.com/-xJxeP-SiSSQ/UWk0iUK-SUI/AAAAAAAAAFs/XeF6ccjodcQ/s1600/Lion-King-Of-Jungle.jpg",
         "abstract":" The lion (Panthera leo) is a large carnivorous mammal belonging to the Felidae family. It is commonly referred to as the king of the jungle and is known for its majestic appearance and fierce hunting prowess.",
         "totalPopulation":500,
         "populationArray":"",
@@ -30,7 +30,7 @@
     },
     {
         "name": "elephant",
-        "Image":"https://tse2.mm.bing.net/th?id=OIP.hr7u2_95JL7DQvlYpvcCygHaFj&pid=Api&P=0&h=180",
+        "image":"https://tse2.mm.bing.net/th?id=OIP.hr7u2_95JL7DQvlYpvcCygHaFj&pid=Api&P=0&h=180",
         "abstract": "The elephant is the largest land mammal, characterized by its long trunk, large ears, and tusks. It plays a crucial role in maintaining ecosystem balance and is considered a keystone species.",
         "totalPopulation": 415000,
         "populationArray": "",
@@ -59,7 +59,7 @@
     },
     {
         "name": "Bengal Tiger",
-        "Image":"http://4.bp.blogspot.com/-z-p1lXHAhk4/T-AXkLnaU2I/AAAAAAAALtA/VVe6iQV0-Y0/s1600/Bengal+Tiger4.jpg",
+        "image":"http://4.bp.blogspot.com/-z-p1lXHAhk4/T-AXkLnaU2I/AAAAAAAALtA/VVe6iQV0-Y0/s1600/Bengal+Tiger4.jpg",
         "abstract": "The Bengal tiger (Panthera tigris tigris) is a majestic big cat native to the Indian subcontinent. It is known for its distinctive orange coat with black stripes and is the national animal of India. Bengal tigers are apex predators and play a crucial role in maintaining the ecological balance of their habitats.",
         "totalPopulation": 2500,
         "populationArray": "",
@@ -89,7 +89,7 @@
     },
     {
         "name": "Indian Leopard",
-        "Image":"https://tse4.mm.bing.net/th?id=OIP.rkdXUjydYorDaMeJJ--e4wHaFV&pid=Api&P=0&h=180",
+        "image":"https://tse4.mm.bing.net/th?id=OIP.rkdXUjydYorDaMeJJ--e4wHaFV&pid=Api&P=0&h=180",
         "abstract": "The Indian leopard (Panthera pardus fusca) is a subspecies of leopard native to the Indian subcontinent. It is characterized by its spotted coat and is known for its adaptability to various habitats, including forests, grasslands, and human-dominated landscapes.",
         "totalPopulation": 12000,
         "populationArray": "",
@@ -118,7 +118,7 @@
     },
     {
         "name": "Indian Gaur (Indian Bison)",
-        "Image":"https://i.redd.it/7aphwz2vhx151.jpg",
+        "image":"https://i.redd.it/7aphwz2vhx151.jpg",
         "abstract": "The Indian gaur (Bos gaurus), also known as the Indian bison, is a large bovine species native to the Indian subcontinent. It is characterized by its robust build, dark brown coat, and distinctive white stockings on its lower legs.",
         "totalPopulation": 21000,
         "populationArray": "",
@@ -143,37 +143,10 @@
             "Community Engagement": "Implementing community-based conservation programs, providing alternative livelihoods, and promoting sustainable land-use practices to reduce human-gaur conflicts and promote coexistence.",
             "Anti-Poaching Efforts": "Enhancing law enforcement efforts, deploying anti-poaching patrols, and implementing stricter penalties for poaching offenses to protect gaurs from illegal hunting and trade."
         }
-    },{
-    "name": "Sloth Bear",
-    "Image":"https://www.zoo-leipzig.de/fileadmin/_processed_/3/5/csm_Lippenbaer_4_d7fddf19e7.jpg",
-    "abstract": "The sloth bear (Melursus ursinus) is a species of bear native to the Indian subcontinent. It is known for its shaggy black coat, distinctive white V-shaped mark on its chest, and its unique diet, which includes insects, fruits, and honey.",
-    "totalPopulation": 8000,
-    "populationArray": "",
-    "populationTrend": "Decreasing",
-    "habitat": "Dry and moist deciduous forests, grasslands, and scrublands",
-    "taxonomy": {
-        "Kingdom": "Animalia",
-        "Phylum": "Chordata",
-        "Class": "Mammalia",
-        "Order": "Carnivora",
-        "Family": "Ursidae",
-        "Genus": "Melursus",
-        "Species": "Melursus ursinus"
     },
-    "threats": {
-        "Habitat Loss": "Deforestation, habitat fragmentation, and degradation of sloth bear habitats due to human activities such as logging, agriculture, and infrastructure development.",
-        "Poaching": "Illegal hunting for bear bile, claws, and body parts, driven by demand for traditional medicine, cultural beliefs, and wildlife products.",
-        "Human-Bear Conflict": "As human populations expand into bear territories, conflicts between sloth bears and humans over resources such as crops, livestock, and habitat are increasing."
-    },
-    "conservationAction": {
-        "Protected Areas": "Establishing and expanding protected areas, wildlife reserves, and conservation corridors to safeguard sloth bear habitats and populations.",
-        "Community Engagement": "Implementing bear-wise practices, promoting coexistence, and providing compensation for crop and livestock losses to reduce human-bear conflicts and mitigate retaliatory killings.",
-        "Anti-Poaching Efforts": "Strengthening anti-poaching measures, conducting wildlife law enforcement operations, and enhancing intelligence gathering to combat illegal hunting and trade of sloth bears."
-    }
-},
 {
     "name": "Sloth Bear",
-    "Image":"https://www.zoo-leipzig.de/fileadmin/_processed_/3/5/csm_Lippenbaer_4_d7fddf19e7.jpg",
+    "image":"https://www.zoo-leipzig.de/fileadmin/_processed_/3/5/csm_Lippenbaer_4_d7fddf19e7.jpg",
     "abstract": "The sloth bear (Melursus ursinus) is a species of bear native to the Indian subcontinent. It is known for its shaggy black coat, distinctive white V-shaped mark on its chest, and its unique diet, which includes insects, fruits, and honey.",
     "totalPopulation": 8000,
     "populationArray": "",
@@ -201,7 +174,7 @@
 },
 {
     "name": "Indian Wolf",
-    "Image":"http://www.conservationindia.org/wp-content/files_mf/Indian-Wolf-Narayan-Malu-CI.jpg",
+    "image":"http://www.conservationindia.org/wp-content/files_mf/Indian-Wolf-Narayan-Malu-CI.jpg",
     "abstract": "The Indian wolf (Canis lupus pallipes) is a subspecies of gray wolf native to the Indian subcontinent. It is characterized by its sandy or reddish-brown coat, long legs, and slender build.",
     "totalPopulation": 2000,
     "populationArray": "",
@@ -230,7 +203,7 @@
 },
 {
     "name": "Indian Jackal",
-    "Image":"https://tse1.mm.bing.net/th?id=OIP.pQ3fGvSstkKrYV6vRwlxGgHaFj&pid=Api&P=0&h=180",
+    "image":"https://tse1.mm.bing.net/th?id=OIP.pQ3fGvSstkKrYV6vRwlxGgHaFj&pid=Api&P=0&h=180",
     "abstract": "The Indian jackal (Canis aureus indicus) is a subspecies of golden jackal native to the Indian subcontinent. It is characterized by its sandy or golden-brown fur, bushy tail, and adaptability to various habitats.",
     "totalPopulation": 50000,
     "populationArray": "",
@@ -259,7 +232,7 @@
 },
 {
     "name": "Striped Hyena",
-    "Image":"https://tse3.mm.bing.net/th?id=OIP.5HG6Y1JX7QqclIjXpMfObgHaE6&pid=Api&P=0&h=180",
+    "image":"https://tse3.mm.bing.net/th?id=OIP.5HG6Y1JX7QqclIjXpMfObgHaE6&pid=Api&P=0&h=180",
     "abstract": "The striped hyena (Hyaena hyaena) is a species of hyena native to North and East Africa, the Middle East, the Caucasus, and the Indian subcontinent. It is characterized by its distinctive black and white striped fur and robust build.",
     "totalPopulation": 10000,
     "populationArray": "",
@@ -287,7 +260,8 @@
 },
 {
     "name": "Indian Pangolin",
-    "Image":"http://indiasendangered.com/wp-content/uploads/2016/03/Pangolin_Keith20Coleen-Begg-2.jpg",
+    "abstract": "The Indian hare (Lepus nigricollis) is a species of hare found in the Indian subcontinent. It is characterized by its slender build, long ears, and reddish-brown fur.",
+    "image":"http://indiasendangered.com/wp-content/uploads/2016/03/Pangolin_Keith20Coleen-Begg-2.jpg",
     "totalPopulation": 20000,
     "populationArray": "",
     "populationTrend": "Decreasing",
@@ -314,7 +288,7 @@
 },
 {
     "name": "Indian Hare",
-    "Image":"https://tse3.mm.bing.net/th?id=OIP.y4WwzYFZRMQWobBEV6ktcQHaE8&pid=Api&P=0&h=180",
+    "image":"https://tse3.mm.bing.net/th?id=OIP.y4WwzYFZRMQWobBEV6ktcQHaE8&pid=Api&P=0&h=180",
     "abstract": "The Indian hare (Lepus nigricollis) is a species of hare found in the Indian subcontinent. It is characterized by its slender build, long ears, and reddish-brown fur.",
     "totalPopulation": 100000,
     "populationArray": "",
@@ -342,7 +316,7 @@
 },
 {
     "name": "Indian Giant Squirrel",
-    "Image":"https://tse4.mm.bing.net/th?id=OIP.52Fpgi_VCHSo4B81l4bSzAHaFj&pid=Api&P=0&h=180",
+    "image":"https://tse4.mm.bing.net/th?id=OIP.52Fpgi_VCHSo4B81l4bSzAHaFj&pid=Api&P=0&h=180",
     "abstract": "The Indian giant squirrel (Ratufa indica) is a large tree-dwelling rodent species found in forests across the Indian subcontinent. It is known for its striking multicolored fur and long, bushy tail.",
     "totalPopulation": 15000,
     "populationArray": "",
@@ -370,7 +344,7 @@
 },
 {
     "name": "Indian Porcupine",
-    "Image":"https://tse2.mm.bing.net/th?id=OIP.d-A0-5_jj8OOhJHBdW5jdAHaFj&pid=Api&P=0&h=180",
+    "image":"https://tse2.mm.bing.net/th?id=OIP.d-A0-5_jj8OOhJHBdW5jdAHaFj&pid=Api&P=0&h=180",
     "abstract": "The Indian porcupine (Hystrix indica) is a large rodent species found in various habitats across the Indian subcontinent. It is characterized by its sharp, barbed quills and nocturnal habits.",
     "totalPopulation": 30000,
     "populationArray": "",
@@ -398,7 +372,7 @@
 },
 {
     "name": "Indian Flying Fox (Fruit Bat)",
-    "Image":"https://facts.net/wp-content/uploads/2021/01/Flying-Fox.jpg",
+    "image":"https://facts.net/wp-content/uploads/2021/01/Flying-Fox.jpg",
     "abstract": "The Indian flying fox (Pteropus giganteus) is a species of megabat found in South Asia. It is one of the largest bats in the world and plays a vital role in pollination and seed dispersal.",
     "totalPopulation": 1000000,
     "populationArray": "",
@@ -426,7 +400,7 @@
 },
 {
     "name": "Indian Civet",
-    "Image":"https://tse4.mm.bing.net/th?id=OIP.5myIayAXDjMePWSPMwOovgHaFj&pid=Api&P=0&h=180",
+    "image":"https://tse4.mm.bing.net/th?id=OIP.5myIayAXDjMePWSPMwOovgHaFj&pid=Api&P=0&h=180",
     "abstract": "The Indian civet (Viverra civettina) is a small carnivorous mammal found in forests and rural areas across the Indian subcontinent. It is known for its distinctive coat markings and nocturnal habits.",
     "totalPopulation": 20000,
     "populationArray": "",
@@ -454,7 +428,7 @@
 },
 {
     "name": "Indian Palm Civet",
-    "Image":"https://live.staticflickr.com/2868/9821827944_90a365b934_b.jpg",
+    "image":"https://live.staticflickr.com/2868/9821827944_90a365b934_b.jpg",
     "abstract": "The Indian palm civet (Paradoxurus hermaphroditus) is a small omnivorous mammal found in forests and human-dominated landscapes across the Indian subcontinent. It is known for its distinctive coat markings and nocturnal habits.",
     "totalPopulation": 25000,
     "populationArray": "",
@@ -482,7 +456,7 @@
 },
 {
     "name": "Indian Grey Mongoose",
-    "Image":"https://tse1.mm.bing.net/th?id=OIP.XIsIy4VpjluT6czX4J-SxAHaFN&pid=Api&P=0&h=180",
+    "image":"https://tse1.mm.bing.net/th?id=OIP.XIsIy4VpjluT6czX4J-SxAHaFN&pid=Api&P=0&h=180",
     "abstract": "The Indian grey mongoose (Herpestes edwardsii) is a small carnivorous mammal found in a wide range of habitats across the Indian subcontinent. It is known for its agility, speed, and ability to prey on snakes.",
     "totalPopulation": 50000,
     "populationArray": "",
@@ -510,7 +484,7 @@
 },
 {
     "name": "Indian Flying Squirrel",
-    "Image":"https://tse2.mm.bing.net/th?id=OIP.OsKrpahs3cyMcCrxdy9LYwHaE8&pid=Api&P=0&h=180",
+    "image":"https://tse2.mm.bing.net/th?id=OIP.OsKrpahs3cyMcCrxdy9LYwHaE8&pid=Api&P=0&h=180",
     "abstract": "The Indian flying squirrel (Petaurista philippensis) is a species of flying squirrel found in forests across the Indian subcontinent. It is known for its large, patagium-supported gliding membrane that enables it to glide between trees.",
     "totalPopulation": 100000,
     "populationArray": "",
@@ -538,7 +512,7 @@
 },
 {
     "name": "Indian Peafowl",
-    "Image":"https://tse2.mm.bing.net/th?id=OIP.EPpNmcf4HMLLzurKSQ5ffAHaE7&pid=Api&P=0&h=180",
+    "image":"https://tse2.mm.bing.net/th?id=OIP.EPpNmcf4HMLLzurKSQ5ffAHaE7&pid=Api&P=0&h=180",
     "abstract": "The Indian peafowl (Pavo cristatus) is a large and colorful bird species native to South Asia. It is known for its iridescent plumage and extravagant courtship displays.",
     "totalPopulation": 500000,
     "populationArray": "",
@@ -566,7 +540,7 @@
 },
 {
     "name": "Blackbuck (Indian Antelope)",
-    "Image":"https://tse2.mm.bing.net/th?id=OIP.NseeztHKpjs0r5vCdTX-CwHaFf&pid=Api&P=0&h=180",
+    "image":"https://tse2.mm.bing.net/th?id=OIP.NseeztHKpjs0r5vCdTX-CwHaFf&pid=Api&P=0&h=180",
     "abstract": "The blackbuck (Antilope cervicapra), also known as the Indian antelope, is an elegant and swift ungulate species native to the Indian subcontinent. It is known for its distinctive spiral horns and striking black and white coat.",
     "totalPopulation": 50000,
     "populationArray": "",
@@ -593,8 +567,8 @@
     }
 },
 {
-    "name": "Indian Python",
-    "Image":"",
+    "name": "Indian Peacock",
+    "image":"https://tse2.mm.bing.net/th?id=OIP.EPpNmcf4HMLLzurKSQ5ffAHaE7&pid=Api&P=0&h=180",
     "abstract": "The Indian python (Python molurus) is a species of large non-venomous snake found in the forests and grasslands of the Indian subcontinent. It is known for its powerful constriction and secretive behavior.",
     "totalPopulation": 20000,
     "populationArray": "http://rahulalvares.com/wp-content/uploads/2014/02/6O4A4956.jpg",

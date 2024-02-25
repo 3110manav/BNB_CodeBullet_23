@@ -19,10 +19,10 @@ const Home = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1750,
     responsive: [
       {
         breakpoint: 1024,
@@ -84,6 +84,7 @@ const Home = () => {
       </div>
       {/* <!-- end hero --> */}
       <section className="relative bg-gray-100 px-2 py-[90px]">
+        <h1 className="flex text-5xl font-bold justify-center">Wildlife Encyclopedia</h1>
         <Slider {...settings} className="m-10">
           {animalData.map((animal) => (
             <CarouselCard key={animal.name} {...animal} />
