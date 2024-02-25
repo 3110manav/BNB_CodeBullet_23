@@ -1,0 +1,38 @@
+.rank-table-container {
+    width: 80%;
+    margin: 50px auto; /* Centering the table horizontally and providing some top margin */
+    font-family: Arial, sans-serif; /* Using a fallback font */
+    border-radius: 10px; /* Adding rounded corners */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow */
+  }
+  
+  .rank-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .rank-table th,
+  .rank-table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increased padding for better readability */
+    text-align: left;
+  }
+  
+  .rank-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .rank-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Slightly different background color for even rows */
+  }
+  
+  .rank-table tbody tr:hover {
+    background-color: #f0f0f0; /* Lighter background color on hover */
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
