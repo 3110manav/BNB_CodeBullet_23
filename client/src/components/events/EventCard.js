@@ -10,7 +10,7 @@ function EventCard({ event }) {
         <div className="flex bg-white shadow-lg rounded-md overflow-hidden">
             <img
             className="h-250 w-1/3 object-cover rounded-l-md"
-            src="https://images.unsplash.com/photo-1473260079709-83c808703435?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={event.imageLink}
             alt="Live from space album cover"
             />
             <div className="flex flex-col p-4 w-2/3">
