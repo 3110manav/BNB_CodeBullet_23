@@ -5,7 +5,7 @@
         "time": "10:00 AM - 4:00 PM",
         "location": "Renewable Energy Center",
         "eventDetails": "Join industry leaders and experts in discussions about the latest advancements in green energy. Explore sustainable solutions for a cleaner future.",
-        "imageLink": "your_image_link_here"
+        "imageLink": "https://images.unsplash.com/photo-1674574124345-02c525664b65?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "eventName": "Wildlife Photography Workshop",
@@ -13,7 +13,7 @@
         "time": "2:00 PM - 5:00 PM",
         "location": "Nature Reserve Center",
         "eventDetails": "Explore the art of wildlife photography with experts. Learn techniques to capture the beauty of nature and wildlife in their natural habitats.",
-        "imageLink": "your_image_link_here"
+        "imageLink": "https://unsplash.com/photos/brown-tiger-walking-on-brown-sand-during-daytime-Fbdr6gXJBVY"
       },
       {
         "eventName": "Tree Planting Campaign",
@@ -21,7 +21,7 @@
         "time": "9:00 AM - 12:00 PM",
         "location": "Community Park",
         "eventDetails": "Contribute to a greener tomorrow! Join our tree planting campaign and make a positive impact on the environment.",
-        "imageLink": "your_image_link_here"
+        "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ankeny_National_Wildlife_Refuge.jpg/414px-Ankeny_National_Wildlife_Refuge.jpg"
       },
       {
         "eventName": "Earth Day Festival",
@@ -29,7 +29,7 @@
         "time": "12:00 PM - 6:00 PM",
         "location": "City Park",
         "eventDetails": "Celebrate Earth Day with us at our eco-friendly festival. Enjoy live music, sustainable vendors, and educational exhibits promoting environmental awareness.",
-        "imageLink": "your_image_link_here"
+        "imageLink": "https://media.gettyimages.com/id/670707394/photo/nelspruit-south-africa-4-may-2016-care-for-wild-africa-is-a-donor-run-ngo-that-specializes-in.jpg?s=612x612&w=gi&k=20&c=fLuwIIP6vrEUrHghk_UpWtS7Vbwma2CF4BnbyqU4Yz8="
       },
       {
         "eventName": "Ocean Cleanup Day",
@@ -37,7 +37,7 @@
         "time": "9:00 AM - 1:00 PM",
         "location": "Beach Cleanup - Pacific Coast",
         "eventDetails": "Join us for a day dedicated to cleaning up our oceans. Help remove plastics and debris from our beautiful beaches, ensuring a healthier marine environment.",
-        "imageLink": "your_image_link_here"
+        "imageLink": "https://media.gettyimages.com/id/670706912/photo/nelspruit-south-africa-4-may-2016-care-for-wild-africa-is-a-donor-run-ngo-that-specializes-in.jpg?s=612x612&w=gi&k=20&c=gE5OibfLpNNL-czcuJR8m2TQOwZOJkbBmpoKhDr8hk4="
       }
       
 ]
