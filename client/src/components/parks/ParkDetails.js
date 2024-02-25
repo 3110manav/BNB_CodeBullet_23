@@ -70,10 +70,10 @@ const ParkDetails = () => {
   return (
     <>
       <div className="flex flex-wrap">
-        <div className="w-full lg:w-2/3 p-5">
-          <div>
-            <h3 className="text-4xl font-bold mb-4">{name}</h3>
-            <p className="text-lg text-gray-700">{abstract}</p>
+        <div className="w-full lg:w-2/3 p-5 mt-5">
+          <div className="rounded-md shadow-md shadow-gray-400 p-2">
+            <h3 className="text-4xl font-bold mb-4 ">{name}</h3>
+            <p className="text-lg text-gray-700 border-black shadow-gray-300">{abstract}</p>
           </div>
 
           <div className="mt-[50px] border-b border-solid border-[#0066ff34]">
@@ -104,7 +104,7 @@ const ParkDetails = () => {
               Plant Species
             </button>
 
-            <div className="mt-[50px]">
+            <div className="mt-[50px] shadow-lg shadow-gray-400">
               {tab === "habitate" && <HabitateTable data={animals} />}
               {tab === "plant" && <PlantTable data={plants} />}
               {tab === "endanger" && <EndangerTable data={extinctAnimals} />}
@@ -114,6 +114,7 @@ const ParkDetails = () => {
 
         <div className="w-full lg:w-1/3 p-9">
           <iframe
+          className="shadow-lg shadow-gray-400"
             src="https://my.atlist.com/map/5e332bba-e701-47fe-aee8-8ddd4f610ecd?share=true"
             allow="geolocation 'self' https://my.atlist.com"
             width="100%"
@@ -124,7 +125,7 @@ const ParkDetails = () => {
             allowFullScreen
           ></iframe>
 
-          <div className="mt-8 p-4 border border-gray-300 rounded-md">
+          <div className="mt-8 p-4 border border-gray-200 rounded-md shadow-lg shadow-gray-400">
             <h4 className="text-xl font-semibold mb-4">Threats</h4>
             <ul className="list-disc pl-6">
               {Object.entries(threats).map(([threat, description], index) => (
