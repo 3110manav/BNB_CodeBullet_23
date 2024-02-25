@@ -83,6 +83,13 @@ const Home = () => {
         </section>
       </div>
       {/* <!-- end hero --> */}
+      <section className="relative bg-gray-100 px-2 py-[90px]">
+        <Slider {...settings} className="m-10">
+          {animalData.map((animal) => (
+            <CarouselCard key={animal.name} {...animal} />
+          ))}
+        </Slider>
+      </section>
 
       {/* <!-- start about --> */}
       <section className="relative px-4 py-10 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-32">
