@@ -1,6 +1,7 @@
 import React , {useState} from "react";
 import ParkDetails from "./ParkDetails";
 import { useNavigate } from 'react-router-dom';
+import SearchIcon from '@mui/icons-material/Search';
 
 const Parks = () => {
 
@@ -11,12 +12,13 @@ const Parks = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center mt-10 min-h-screen">
       {/* Search Bar */}
       <div className="w-[60%] mb-8">
         <div className="relative">
           <div className="absolute inset-y-5 left-4 flex items-center pointer-events-none">
-            <svg
+            <SearchIcon color="success"/>
+            {/* <svg
               className="w-6 h-6 text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -29,7 +31,7 @@ const Parks = () => {
                 strokeWidth="2"
                 d="M19 19l-6-6M13 7h6m0 0L13 13M13 13H6m0 0l-1 1m1-1l6-6"
               />
-            </svg>
+            </svg> */}
           </div>
           <input
             type="search"
@@ -40,17 +42,17 @@ const Parks = () => {
       </div>
 
       {/* Horizontal Cards */}
-      <div className="max-w-3xl rounded-lg shadow-md lg:flex md:flex shadow-sky-600" onClick={handleClick}>
+      <div className="max-w-3xl rounded-lg shadow-md lg:flex md:flex shadow-green-600" onClick={handleClick}>
         <img
           className="object-cover w-full md:w-1/3 lg:w-1/3"
           src="https://cdn.pixabay.com/photo/2016/12/19/18/21/snowflake-1918794__340.jpg"
           alt="image"
         />
         <div className="px-6 py-4">
-          <h4 className="mb-3 text-base font-semibold tracking-tight text-sky-600">
+          <h4 className="mb-3 text-base font-semibold tracking-tight text-green-600">
             Christmas Tree Decoration
           </h4>
-          <p className="mb-2 text-sm leading-normal text-justify text-sky-900">
+          <p className="mb-2 text-sm leading-normal text-justify text-green-900">
             Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen
             tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.
           </p>
@@ -60,10 +62,10 @@ const Parks = () => {
         py-2
         text-sm
         shadow
-        bg-sky-100
-        shadow-sky-600
-        text-sky-700
-        hover:bg-sky-600 hover:text-sky-100"
+        bg-green-100
+        shadow-green-600
+        text-green-700
+        hover:bg-green-600 hover:text-green-100"
           >
             Read more
           </button>

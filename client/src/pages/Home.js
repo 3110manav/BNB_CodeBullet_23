@@ -4,6 +4,7 @@ import EndImg from '../assets/images/endangered.jpeg';
 import ComImg from '../assets/images/Community.jpg'
 import HabImg from '../assets/images/Animal.jpg';
 import WildImg from '../assets/images/wildlife.jpeg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -27,7 +28,7 @@ const Home = () => {
             <div>
               <h1 className="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">Protect Wildlife, Preserve Nature.</h1>
               <p className="text-blue-100 text-xl md:text-2xl leading-snug mt-4">Welcome to our platform dedicated to animal awareness and conservation.</p>
-              <a href="#" className="px-8 py-4 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">EXPLORE</a>
+              <Link to="/park" className="px-8 py-4 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">EXPLORE</Link>
             </div>
           </div>
         </section>
