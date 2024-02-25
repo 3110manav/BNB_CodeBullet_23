@@ -42,36 +42,36 @@ const Header = () => {
             <nav className="w-full bg-white md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
               <ul className="md:flex items-center">
                 <li>
-                  <a
+                  <Link
                     className="py-2 inline-block md:text-white md:hidden lg:block font-semibold"
-                    href="#"
+                    to="/"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="md:ml-4">
-                  <a
+                  <Link
                     className="py-2 inline-block md:text-white md:px-2 font-semibold"
-                    href="#"
+                    to="/park"
                   >
                     Habitat
-                  </a>
+                  </Link>
                 </li>
                 <li className="md:ml-4">
-                  <a
+                  <Link
                     className="py-2 inline-block md:text-white md:px-2 font-semibold"
-                    href="#"
+                    to="/events"
                   >
-                    Events
-                  </a>
+                    Events/Campaign
+                  </Link>
                 </li>
                 <li className="md:ml-4 md:hidden lg:block">
-                  <a
+                  <Link
                     className="py-2 inline-block md:text-white md:px-2 font-semibold"
-                    href="#"
+                    to="/news"
                   >
                     Updates/News
-                  </a>
+                  </Link>
                 </li>
                 <li className="md:ml-4">
                   <a
@@ -86,7 +86,7 @@ const Header = () => {
                     className="inline-block font-semibold px-4 py-2 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded"
                     href="book-appointment.html"
                   >
-                    Donate Us
+                    Take a Quiz
                   </a>
                 </li>
               </ul>
