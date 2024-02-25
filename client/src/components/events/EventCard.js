@@ -1,16 +1,12 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import { Paper } from "@mui/material";
+import { Button, Paper } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 
 function EventCard() {
 
     return (
-      <div style={{width:1000}}>
+      <Paper square={false} elevation={6} sx={{borderRadius:5, width:1000}}>
         <div className="flex bg-white shadow-lg rounded-md overflow-hidden">
             <img
             className="h-250 w-1/3 object-cover rounded-l-md"
@@ -30,9 +26,13 @@ function EventCard() {
             <div>
                 Embark on an unforgettable journey through the heart of the Serengeti as we come together to support wildlife conservation efforts. Our Safari for Conservation event will immerse you in the beauty of nature while raising vital funds to protect endangered species and their habitats.
             </div>
+            <div style={{marginTop:10}}>
+                <Button style={{ textTransform:"none" }} color="success" variant="contained">Register for Campaign</Button>
+                <Button style={{ textTransform:"none", marginLeft:20 }} color="success" variant="outlined">View Details</Button>
+            </div>
             </div>
         </div>
-      </div>
+      </Paper>
 
     );
 }
