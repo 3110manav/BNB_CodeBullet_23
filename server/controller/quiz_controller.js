@@ -8,11 +8,11 @@ const { ObjectId } = mongoose.Types;
 export const addScore = async (req, res) => {
     try {
         const userId = new  ObjectId(req.user.id);
-        let user = await User.findOne({ _id: userId});
         let isQuizTaken = await Quiz.findOne({user:req.user.id})
         if(isQuizTaken){
             return res.status(403).json({error:"Quiz already exist"}) 
         }
+        let user = await User.findOne({ _id: userId});
         console.log(req.user)
         console.log(user)
         const {score} = req.body;
@@ -24,9 +24,9 @@ export const addScore = async (req, res) => {
             email: user.email,
             score:score,
         })
-        const allData = await Quiz.find({}).select('-_id -user -__v')
+        // const allData = await Quiz.find({}).select('-_id -user -__v')
         
-        res.status(200).json( allData );
+        res.status(200).json( scoreAdd );
         // res.status(200).send("signedup successfully")
     } catch (error) {
         res.status(500).json({ message: error.message });

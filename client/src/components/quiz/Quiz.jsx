@@ -1,8 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import './quizStyles.css'
 import quizData from '../../constant/quizData.json'
 import RankTable from './RankTable.jsx'
-import './quizStyles.css'
+import { addScoreApi } from '../../service/api.js'
+
 const Quiz = () => {
+    const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [showScore, setShowScore] = useState(false);
+    const [score, setScore] = useState(0);
+    const [currentUser, setCurrentUser] = useState({});
     const quizQuestions = quizData;
     let questions = new Array(5)
     // console.log(questions)
@@ -12,9 +18,34 @@ const Quiz = () => {
         // console.log("Randomly chosen index:", randomIndex);
         // console.log("Value at that index:", myArray[randomIndex]);
     }
-    const [currentQuestion, setCurrentQuestion] = useState(0);
-    const [showScore, setShowScore] = useState(false);
-    const [score, setScore] = useState(0);
+
+    console.log(showScore) // Changing it to true
+    useEffect(() => {
+        const addScore = async () => {
+            console.log("Score while addScoreApi" + score);
+            /*
+            response from api
+            {
+                "user": "65daec99917ecee41a2fb46a",
+                "username": "yolo",
+                "email": "yolo@gmail.com",
+                "score": 2,
+                "_id": "65dc6e8505f06355d817db81",
+                "__v": 0
+            }
+            */
+            let res = await addScoreApi(score);
+            console.log(res)
+            if(res.status === 200){
+                console.log(res)
+                setCurrentUser(res.data);
+            }
+            
+        }
+        if(showScore){
+            addScore()
+        }
+    }, [showScore])
 
     const handleAnswerOptionClick = (isCorrect) => {
         if (isCorrect) {
@@ -22,10 +53,12 @@ const Quiz = () => {
         }
 
         const nextQuestion = currentQuestion + 1;
+        console.log("next Question :" + nextQuestion + " current Question:" + currentQuestion)
         if (nextQuestion < questions.length) {
             setCurrentQuestion(nextQuestion);
         } else {
             setShowScore(true);
+            console.log(showScore)
         }
     };
     return (
@@ -54,7 +87,7 @@ const Quiz = () => {
                 </div>
             </div>
             <div>
-                <RankTable/>
+                {showScore ? <RankTable currentUser={currentUser} /> : <RankTable />}
             </div>
         </div>
     )

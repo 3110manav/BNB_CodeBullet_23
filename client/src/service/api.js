@@ -69,6 +69,9 @@ export const addScoreApi = async(score) => {
         return response;
     }
     catch(error){
+        if(error.response && error.response.status ===403){
+            return error.response;
+        }
         console.log("error while getUser : ", error);
     }
 }
