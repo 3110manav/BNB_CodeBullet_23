@@ -57,3 +57,13 @@ export const userSignUp = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 }
+
+export const getAllUsers = async (req, res) => {
+    try {
+        let userDetails = await User.find({}).select('-password');
+        return res.status(200).send(userDetails);
+        // res.status(200).send("signedup successfully")
+    } catch (error) {
+        res.status(500).json('Error: ', error.message);        
+    }
+}
