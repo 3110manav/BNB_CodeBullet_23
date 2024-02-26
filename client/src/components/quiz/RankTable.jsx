@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { faker } from '@faker-js/faker';
 import './rankTableStyles.css'
 import { getAllQuizUsers } from '../../service/api';
-const RankTable = ({ currentUser }) => {
+const RankTable = ({ currentUser={} }) => {
   const [data, setData] = useState([]);
 
   useEffect(() => async () => {

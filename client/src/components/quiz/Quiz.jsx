@@ -42,6 +42,7 @@ const Quiz = () => {
             }
             
         }
+        console.log("inside useEffect : "  + showScore)
         if(showScore){
             addScore()
         }
@@ -87,7 +88,8 @@ const Quiz = () => {
                 </div>
             </div>
             <div>
-                {showScore ? <RankTable currentUser={currentUser} /> : <RankTable />}
+                <RankTable currentUser={currentUser} />
+                {/* {showScore ? <RankTable currentUser={currentUser} /> : <RankTable />} */}
             </div>
         </div>
     )
